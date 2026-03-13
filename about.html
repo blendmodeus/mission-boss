@@ -33,7 +33,9 @@
 
   <!-- ====== PAGE HERO ====== -->
   <section class="page-hero">
-    <div class="container">
+    <img src="/img/hero-about.png" alt="" class="page-hero__bg-img" />
+    <div class="page-hero__overlay"></div>
+    <div class="container" style="position:relative;z-index:2;">
       <span class="section__eyebrow">The Conviction</span>
       <h1 class="page-hero__title">From the Engine Room to the Boardroom.</h1>
       <p class="page-hero__subtitle">
@@ -130,7 +132,10 @@
   <section class="section" id="human">
     <div class="container container--narrow">
       <div class="reveal">
-        <div style="background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-mid) 100%); border-radius: var(--radius-lg); padding: var(--space-xl); color: white;">
+        <div style="position: relative; overflow: hidden; border-radius: var(--radius-lg); padding: var(--space-xl); color: white;">
+          <img src="/img/card-mike.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+          <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,22,40,0.9) 0%,rgba(10,22,40,0.8) 100%);"></div>
+          <div style="position:relative;">
           <h3 style="font-size: var(--fs-h3); color: var(--color-gold); margin-bottom: var(--space-md);">Michael Joseph Kelly</h3>
           <p style="font-size: var(--fs-body-lg); line-height: var(--lh-body); margin-bottom: var(--space-md);">
             I live in Franklin, Tennessee. I've spent decades building companies to solve real-world problems. Mission BOSS is the culmination of that journey — a way to see the exact spread of money bought and sold yesterday, to understand the true impact of every hiring decision, and to document the "why" behind every strategic pivot.
@@ -140,6 +145,7 @@
           </p>
           <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md); font-size: var(--fs-small); color: rgba(255,255,255,0.5); font-style: italic;">
             "When I'm not in a strategy workshop or refining our daily bottom-line algorithms, you'll likely find me on a trail in Tennessee or spending time with my wife, Jessica, and our three kids. I believe a leader's greatest asset is their time — and I've dedicated my career to making sure yours is never wasted."
+          </div>
           </div>
         </div>
       </div>

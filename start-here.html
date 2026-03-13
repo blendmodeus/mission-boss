@@ -33,7 +33,9 @@
 
   <!-- ====== PAGE HERO ====== -->
   <section class="page-hero">
-    <div class="container">
+    <img src="/img/hero-start-here.png" alt="" class="page-hero__bg-img" />
+    <div class="page-hero__overlay"></div>
+    <div class="container" style="position:relative;z-index:2;">
       <span class="section__eyebrow">The Starting Point</span>
       <h1 class="page-hero__title">Know Exactly Where Your Business Is Leaking. <span class="text-gold">In Two Weeks.</span></h1>
       <p class="page-hero__subtitle">
@@ -79,7 +81,10 @@
 
         <div class="reveal reveal-delay-2">
           <!-- Booking Card -->
-          <div style="background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-mid) 100%); border-radius: var(--radius-lg); padding: var(--space-xl); color: white;">
+          <div style="position: relative; overflow: hidden; border-radius: var(--radius-lg); padding: var(--space-xl); color: white;">
+            <img src="/img/card-booking.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
+            <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,22,40,0.9) 0%,rgba(10,22,40,0.8) 100%);"></div>
+            <div style="position:relative;">
             <span style="display:inline-block; font-size: var(--fs-tiny); font-weight: 700; text-transform: uppercase; letter-spacing: var(--ls-caps); color: var(--color-gold); margin-bottom: var(--space-sm);">Your Next Step</span>
             <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-xs);">The Clarity Session</h3>
             <p style="font-size: var(--fs-small); color: rgba(255,255,255,0.6); margin-bottom: var(--space-lg);">Two 2-hour Zoom sessions over two weeks. Walk away with a complete financial diagnostic and prioritized roadmap.</p>
@@ -99,17 +104,18 @@
               </div>
               <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span style="font-size: var(--fs-small);">Leak identification & quantification</span>
+                <span style="font-size: var(--fs-small);">Leak identification &amp; quantification</span>
               </div>
               <div style="display: flex; align-items: center; gap: 0.5rem;">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                <span style="font-size: var(--fs-small);">No obligation to continue</span>
+                <span style="font-size: var(--fs-small);">Zero obligation — this is a diagnostic, not a pitch</span>
               </div>
             </div>
 
             <a href="#calendly" class="btn btn--gold btn--large" style="width: 100%; text-align: center;" id="booking-cta">Schedule Your Clarity Session</a>
             <p style="font-size: var(--fs-tiny); color: rgba(255,255,255,0.4); text-align: center; margin-top: var(--space-sm);">Limited availability — we only take on 3 new sessions per month.</p>
-          </div>
+            </div>
+          </div>  </div>
         </div>
       </div>
     </div>
