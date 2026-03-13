@@ -344,3 +344,101 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* === LOGO BAR (Trusted By) === */
+.logo-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg) var(--space-xl);
+  padding: var(--space-lg) 0;
+}
+
+.logo-bar img {
+  max-height: 36px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: filter 0.3s, opacity 0.3s;
+}
+
+.logo-bar img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .logo-bar {
+    gap: var(--space-md) var(--space-lg);
+  }
+  .logo-bar img {
+    max-height: 28px;
+  }
+}
+
+/* === SPLIT SECTION IMAGES === */
+.split-image {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  object-fit: cover;
+}
+
+.split-image--tall {
+  aspect-ratio: 3/4;
+}
+
+.split-image--wide {
+  aspect-ratio: 4/3;
+}
+
+/* === HEADSHOT (circular) === */
+.headshot {
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+}
+
+.headshot--sm {
+  width: 64px;
+  height: 64px;
+}
+
+.headshot--md {
+  width: 120px;
+  height: 120px;
+}
+
+.headshot--lg {
+  width: 200px;
+  height: 200px;
+}
+
+/* === BOOK DISPLAY === */
+.book-display {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.book-display img {
+  max-height: 240px;
+  width: auto;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  transition: transform var(--transition-base);
+}
+
+.book-display img:hover {
+  transform: scale(1.03);
+}
+
+/* === CASE CARD IMAGE === */
+.case-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
