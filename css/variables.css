@@ -1,0 +1,87 @@
+/* =============================================
+   MISSION BOSS — Design Tokens
+   ============================================= */
+
+:root {
+  /* Brand Colors */
+  --color-navy:       #0A1628;
+  --color-navy-light: #121E33;
+  --color-navy-mid:   #1A2A45;
+  --color-purple:     #7B1450;
+  --color-purple-hover: #9A1A66;
+  --color-purple-glow: rgba(123, 20, 80, 0.35);
+  --color-gold:       #D4A017;
+  --color-gold-soft:  #E8B84D;
+
+  /* Surfaces */
+  --color-surface:    #F5F5F7;
+  --color-surface-alt:#EAEAEF;
+  --color-white:      #FFFFFF;
+  --color-dark:       #1A1A2E;
+  --color-dark-muted: #6B7280;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(10, 22, 40, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 20px;
+
+  /* Typography */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Inter', sans-serif;
+
+  --fs-hero:    clamp(2.5rem, 5vw, 4.5rem);
+  --fs-h1:      clamp(2rem, 4vw, 3.5rem);
+  --fs-h2:      clamp(1.75rem, 3vw, 2.75rem);
+  --fs-h3:      clamp(1.25rem, 2vw, 1.75rem);
+  --fs-body:    1.0625rem;
+  --fs-body-lg: 1.25rem;
+  --fs-small:   0.875rem;
+  --fs-tiny:    0.75rem;
+
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+  --fw-black:    900;
+
+  --lh-tight:   1.15;
+  --lh-heading: 1.25;
+  --lh-body:    1.7;
+
+  --ls-tight:   -0.02em;
+  --ls-normal:  0;
+  --ls-wide:    0.05em;
+  --ls-caps:    0.12em;
+
+  /* Spacing */
+  --space-xs:   0.5rem;
+  --space-sm:   1rem;
+  --space-md:   1.5rem;
+  --space-lg:   2.5rem;
+  --space-xl:   4rem;
+  --space-2xl:  6rem;
+  --space-3xl:  8rem;
+
+  /* Layout */
+  --max-width:  1200px;
+  --max-width-narrow: 800px;
+  --gutter:     clamp(1.5rem, 4vw, 3rem);
+
+  /* Borders & Radius */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-full: 999px;
+
+  /* Shadows */
+  --shadow-sm:  0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md:  0 4px 20px rgba(0, 0, 0, 0.12);
+  --shadow-lg:  0 8px 40px rgba(0, 0, 0, 0.18);
+  --shadow-glow: 0 0 30px var(--color-purple-glow);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}

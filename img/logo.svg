@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Shield outline -->
+  <path d="M24 2L4 10v14c0 11 8.5 18.5 20 22 11.5-3.5 20-11 20-22V10L24 2z" fill="#0A1628"/>
+  <!-- Inner shield  -->
+  <path d="M24 5L7 12v12c0 9.5 7.2 16 17 19 9.8-3 17-9.5 17-19V12L24 5z" fill="#121E33"/>
+  <!-- Gold column/pillar center -->
+  <rect x="21.5" y="12" width="5" height="22" rx="1" fill="#D4A017"/>
+  <!-- M left stroke -->
+  <path d="M13 14l5 8v12h3V20l-4.5-6H13z" fill="#7B1450"/>
+  <!-- M right stroke -->
+  <path d="M35 14l-5 8v12h-3V20l4.5-6H35z" fill="#7B1450"/>
+  <!-- M center chevron -->
+  <path d="M18 22l6-8 6 8" stroke="#D4A017" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Gold capital accent top -->
+  <rect x="18" y="10" width="12" height="2.5" rx="1" fill="#D4A017"/>
+  <!-- Small gold base -->
+  <rect x="19" y="35" width="10" height="2" rx="0.75" fill="#D4A017" opacity="0.8"/>
+</svg>
