@@ -145,17 +145,21 @@
     width: 80%;
     max-width: 320px;
     height: 100vh;
+    height: 100dvh;
     background: var(--color-navy);
     flex-direction: column;
     align-items: flex-start;
     padding: 5rem var(--space-lg) var(--space-lg);
     gap: var(--space-md);
-    transition: right var(--transition-base);
+    transition: right var(--transition-base), visibility 0s linear 0.3s;
     box-shadow: -4px 0 30px rgba(0, 0, 0, 0.4);
+    visibility: hidden;
   }
 
   .nav__links.open {
     right: 0;
+    visibility: visible;
+    transition: right var(--transition-base), visibility 0s;
   }
 
   .nav__link {
