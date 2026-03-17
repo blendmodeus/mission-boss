@@ -904,6 +904,15 @@
   width: fit-content;
 }
 
+.carousel__logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-bottom: var(--space-sm);
+  border-radius: 8px;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+}
+
 .carousel__title {
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   font-weight: var(--fw-bold);
