@@ -904,13 +904,27 @@
   width: fit-content;
 }
 
+.carousel__logo-stripe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  background: rgba(11, 26, 46, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 3;
+}
+
 .carousel__logo {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 56px;
+  height: 56px;
   object-fit: cover;
-  margin: 0 auto var(--space-sm);
-  border-radius: 12px;
+  border-radius: 10px;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
 }
 
