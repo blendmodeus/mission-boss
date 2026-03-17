@@ -818,8 +818,8 @@
   left: 50%;
   width: 100%;
   max-width: 720px;
-  transform: translateX(-50%) scale(0.88) translateY(40px);
-  opacity: 0.35;
+  transform: translateX(-50%) scale(0.85) translateY(30px);
+  opacity: 0;
   z-index: 1;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
               opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
@@ -835,15 +835,15 @@
 }
 
 .carousel__card--prev {
-  transform: translateX(-50%) scale(0.93) translateY(20px);
-  opacity: 0.55;
+  transform: translateX(-58%) scale(0.92) translateY(16px);
+  opacity: 1;
   z-index: 2;
   pointer-events: none;
 }
 
 .carousel__card--next {
-  transform: translateX(-50%) scale(0.93) translateY(20px);
-  opacity: 0.55;
+  transform: translateX(-42%) scale(0.92) translateY(16px);
+  opacity: 1;
   z-index: 2;
   pointer-events: none;
 }
