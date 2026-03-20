@@ -4,10 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Start Here — Mission BOSS</title>
-  <meta name="description" content="Know exactly where your credit union is leaking in two weeks. Book a Mission BOSS Clarity Session: two focused sessions, a structured diagnostic, and a clear roadmap." />
+  <meta name="description" content="Know exactly where your credit union is leaking in two weeks. Book a Mission BOSS Clarity Call: two focused sessions, a structured diagnostic, and a clear roadmap." />
   <link rel="stylesheet" href="/css/base.css" />
   <link rel="stylesheet" href="/css/components.css" />
   <link rel="stylesheet" href="/css/pages.css" />
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
   <link rel="icon" type="image/svg+xml" href="/img/logo-favicon.svg" />
 </head>
 <body>
@@ -42,6 +43,7 @@
       <p class="page-hero__subtitle">
         A straightforward diagnostic that gives you a clear picture of your credit union's financial reality.
       </p>
+      <a href="#calendly" class="btn btn--gold btn--large btn--arrow" style="margin-top: var(--space-md);">Schedule Clarity Call</a>
     </div>
   </section>
 
@@ -50,7 +52,7 @@
     <div class="container">
       <div class="split">
         <div class="reveal">
-          <span class="section__eyebrow">The Clarity Session</span>
+          <span class="section__eyebrow">The Clarity Call</span>
           <h2 class="section__title">Two Sessions. One Roadmap. Total Clarity.</h2>
           <p style="font-size: var(--fs-body-lg); color: var(--color-dark-muted); line-height: var(--lh-body); margin-bottom: var(--space-md);">
             This isn't a sales call. It's a real diagnostic of your credit union's economic engine, delivered in two focused 2-hour Zoom sessions.
@@ -87,7 +89,7 @@
             <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,22,40,0.9) 0%,rgba(10,22,40,0.8) 100%);"></div>
             <div style="position:relative;">
             <span style="display:inline-block; font-size: var(--fs-tiny); font-weight: 700; text-transform: uppercase; letter-spacing: var(--ls-caps); color: var(--color-gold); margin-bottom: var(--space-sm);">Your Next Step</span>
-            <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-xs);">The Clarity Session</h3>
+            <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-xs);">The Clarity Call</h3>
             <p style="font-size: var(--fs-small); color: rgba(255,255,255,0.6); margin-bottom: var(--space-lg);">Two 2-hour Zoom sessions over two weeks. Walk away with a complete financial diagnostic and prioritized roadmap.</p>
 
             <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md); margin-bottom: var(--space-lg);">
@@ -113,7 +115,7 @@
               </div>
             </div>
 
-            <a href="#calendly" class="btn btn--gold btn--large" style="width: 100%; text-align: center;" id="booking-cta">Schedule Your Clarity Session</a>
+            <a href="#calendly" class="btn btn--gold btn--large" style="width: 100%; text-align: center;" id="booking-cta">Schedule Your Clarity Call</a>
             <p style="font-size: var(--fs-tiny); color: rgba(255,255,255,0.4); text-align: center; margin-top: var(--space-sm);">Limited availability — we only take on 3 new sessions per month.</p>
             </div>
           </div>  </div>
@@ -203,7 +205,7 @@
   <section class="section section--surface" id="next">
     <div class="container container--narrow">
       <div class="reveal">
-        <span class="section__eyebrow">After The Clarity Session</span>
+        <span class="section__eyebrow">After The Clarity Call</span>
         <h2 class="section__title text-center">What Happens Next</h2>
         <p style="text-align: center; color: var(--color-dark-muted); max-width: 640px; margin: 0 auto var(--space-lg);">
           No pressure, no pitch. You'll have your roadmap and the clarity to act on it.
@@ -243,9 +245,9 @@
     <div class="container reveal">
       <h2 class="cta-banner__title">Ready to See What You've Been Missing?</h2>
       <p class="cta-banner__text">
-        Limited to 3 new Clarity Sessions per month. Secure your spot.
+        Limited to 3 new Clarity Calls per month. Secure your spot.
       </p>
-      <a href="#" class="btn btn--gold btn--large btn--arrow">Schedule Your Clarity Session</a>
+      <a href="#calendly" class="btn btn--gold btn--large btn--arrow">Schedule Your Clarity Call</a>
     </div>
   </section>
 
@@ -257,9 +259,10 @@
         <h2 class="section__title text-white">Schedule a Conversation</h2>
         <p class="section__subtitle" style="margin: 0 auto;">Pick a time that works for you. 20 minutes to talk through what daily clarity could look like for your credit union.</p>
       </div>
-      <div class="reveal" style="max-width: 800px; margin: 0 auto; background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);">
-        <iframe title="Schedule a Discovery Call" width="100%" height="700" style="border: none; border-radius: var(--radius-lg);" src="https://calendly.com/teamonupmikekelly/teamonup-discovery-call"></iframe>
-      </div>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget reveal" data-url="https://calendly.com/teamonupmikekelly/teamonup-discovery-call" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
     </div>
   </section>
 
