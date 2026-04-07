@@ -5,8 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build:resources": "node scripts/build-resources.js",
+    "prebuild": "node scripts/build-resources.js",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.0"
   },
   "devDependencies": {
     "vite": "^5.4.0"

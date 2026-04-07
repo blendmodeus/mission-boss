@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asset Liability Management for Credit Unions — Mission BOSS</title>
+  <meta name="description" content="A practical ALM guide for credit union leaders covering GAP, NII, NEV methods, ALCO structure, interest rate risk, and daily data strategies." />
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/pages.css" />
+  <link rel="stylesheet" href="/css/article.css" />
+  <link rel="icon" type="image/svg+xml" href="/img/logo-favicon.svg" />
+
+</head>
+<body>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <img src="/img/mission-boss-logo-white.png" alt="Mission BOSS" class="nav__logo-img" />
+      </a>
+      <div class="nav__hamburger" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav__links" id="nav-links">
+        <a href="/" class="nav__link">Home</a>
+        <a href="/how-it-works" class="nav__link">How It Works</a>
+        <a href="/case-studies" class="nav__link">Case Studies</a>
+        <a href="/about" class="nav__link">About</a>
+        <a href="/media-appearances" class="nav__link">Media</a>
+        <a href="/resources" class="nav__link">Resources</a>
+        <a href="https://missionboss.com" class="nav__link" target="_blank">Login</a>
+        <a href="/start-here" class="nav__cta btn btn--primary">Start Here</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== PAGE HERO ====== -->
+  <section class="page-hero">
+    <div class="page-hero__overlay"></div>
+    <div class="container" style="position:relative;z-index:2;">
+      <span class="section__eyebrow">Asset Liability Management</span>
+      <h1 class="page-hero__title">Asset Liability Management for Credit Unions</h1>
+      <p class="page-hero__subtitle">A practical ALM guide for credit union leaders covering GAP, NII, NEV methods, ALCO structure, interest rate risk, and daily data strategies.</p>
+    </div>
+  </section>
+
+  <!-- ====== ARTICLE ====== -->
+  <article class="section">
+    <div class="container">
+      <div class="article-content">
+        <h1>Asset Liability Management for Credit Unions: The Operator&#39;s Guide</h1>
+<p>If you are running a credit union between $100M and $2B in assets, your ALM program is either driving your bottom line or quietly eroding it. There is no neutral ground.</p>
+<p>I have sat in hundreds of ALCO meetings over 25 years. Most of them followed the same script: a third-party vendor delivers a 40-page report full of scenario tables, the CFO walks the committee through a few slides, the board nods, and everyone moves on. The report goes in a binder. The binder goes on a shelf. Nothing changes until the next quarter.</p>
+<p>That is not asset liability management. That is asset liability theater.</p>
+<p>Real ALM is the daily discipline of managing the spread between the money you buy and the money you sell -- and making sure every decision you make today does not blow up your balance sheet tomorrow. This guide is written from the operator&#39;s chair, not the consultant&#39;s slide deck. It covers what you actually need to know to run a sound ALM program, pass your NCUA exam with confidence, and make better decisions about your credit union&#39;s financial future.</p>
+<h2>What Asset Liability Management Actually Means (Without the Jargon)</h2>
+<p>Asset liability management is the process of managing the gap between what you pay for money and what you earn on it -- while making sure you can meet every obligation that walks through the door.</p>
+<p>Strip away the acronyms, and ALM answers three questions:</p>
+<ol>
+<li><p><strong>Are we making money on the spread?</strong> The difference between the rate you earn on loans and investments (assets) and the rate you pay on deposits and borrowings (liabilities) is your net interest margin. ALM monitors whether that spread is healthy, shrinking, or about to compress.</p>
+</li>
+<li><p><strong>Can we survive a rate shock?</strong> If rates jump 300 basis points in 12 months, does your balance sheet hold together or does your cost of funds eat your earnings alive? ALM stress-tests your position against scenarios you hope never happen -- but need to plan for.</p>
+</li>
+<li><p><strong>Can we pay our bills?</strong> Liquidity is not glamorous, but a credit union that cannot fund loan demand or cover share withdrawals is a credit union with an existential problem. ALM makes sure cash flow timing works, today and under stress.</p>
+</li>
+</ol>
+<p>The NCUA defines the scope more formally: ALM encompasses capital adequacy, earnings stability, liquidity management, and interest rate risk management. But the heart of it is simpler than regulators make it sound. You bought money at a certain cost. You sold money at a certain rate. ALM is the discipline of making sure that spread stays positive, stays stable, and stays defensible under pressure.</p>
+<h2>Why ALM Matters More Now Than Ever</h2>
+<p>The rate environment since 2022 has been a masterclass in why ALM programs need to be sharp. Consider what credit unions between $100M and $2B have faced:</p>
+<ul>
+<li><p><strong>Deposit repricing that outran asset yields.</strong> When the Fed moved aggressively, credit unions watched their cost of funds jump 150-200 basis points in under 18 months while fixed-rate loan portfolios repriced at a crawl. A $500M credit union I worked with saw its net interest margin compress from 3.42% to 2.71% in three quarters. That is $3.55M in annualized spread compression -- real money that came directly off the bottom line.</p>
+</li>
+<li><p><strong>Inverted yield curve that punished duration mismatches.</strong> Credit unions holding long-duration assets funded by short-duration liabilities got caught in a vice. The textbook ALM risk scenario played out in real time.</p>
+</li>
+<li><p><strong>Rising delinquencies and charge-offs.</strong> After years of historically low credit losses, the 60-day delinquency rate across credit unions climbed past 80 basis points in 2025. That hits asset quality and earnings simultaneously -- both CAMELS components that examiners are watching closely.</p>
+</li>
+<li><p><strong>NCUA 2026 supervisory priorities explicitly targeting balance sheet risk.</strong> The supervisory priorities letter calls out loan quality, delinquency trends, charge-off levels, ACL reserve adequacy, interest rate risk, and liquidity as top examination focus areas. If your ALM program is not airtight, you will hear about it.</p>
+</li>
+</ul>
+<p>This is not a theoretical concern. The credit unions that navigated this environment well had ALM programs that gave them early warning signals and the discipline to act on them. The ones that struggled were flying on 30-day-old data and making decisions in the rearview mirror.</p>
+<h2>The Three Methods Every Credit Union Should Understand</h2>
+<p>Your ALM program will use three measurement methods. Each tells you something different. None of them alone is sufficient.</p>
+<h3>GAP Analysis</h3>
+<p>GAP analysis is the simplest method. It groups your assets and liabilities into time buckets based on when they reprice, then measures the mismatch between them.</p>
+<p>If you have $120M in assets repricing in the next 12 months and $180M in liabilities repricing in the same window, you are &quot;liability-sensitive&quot; by $60M. That means rising rates will likely compress your margin because your costs will go up faster than your revenue.</p>
+<p><strong>When it is useful:</strong> GAP analysis gives you a quick directional read on your repricing position. It is a good starting point and easy for board members to understand.</p>
+<p><strong>Limitations:</strong> GAP analysis assumes everything reprices on schedule, which it does not. It ignores optionality (members prepaying mortgages, early CD withdrawals), and it tells you nothing about the magnitude of earnings impact.</p>
+<h3>Net Interest Income (NII) Simulation</h3>
+<p>NII simulation takes the next step. It models your projected net interest income under different rate scenarios -- typically rate shocks of +/-100, 200, and 300 basis points -- over a 12-to-24-month horizon.</p>
+<p>A properly built NII model will show you that a +200 basis point shock might reduce your net interest income by $1.8M over the next year. That is your earnings at risk. It gives you a dollar figure to act on.</p>
+<p><strong>When it is useful:</strong> NII simulation is the workhorse of ALM. It tells you how much money you stand to gain or lose under different rate environments. It is what drives most tactical ALM decisions -- extending deposit terms, adjusting loan pricing, rebalancing the investment portfolio.</p>
+<p><strong>Limitations:</strong> NII is forward-looking over a short horizon. It depends heavily on the assumptions baked into the model (deposit decay rates, prepayment speeds, new business volume). Bad assumptions produce bad output, and most credit unions do not scrutinize their assumptions closely enough.</p>
+<h3>Net Economic Value (NEV)</h3>
+<p>NEV takes the longest view. It calculates the present value of all your assets minus the present value of all your liabilities under different rate scenarios. Think of it as a snapshot of what your credit union&#39;s economic value would be if you liquidated everything today under each rate scenario.</p>
+<p>If your NEV drops 28% under a +300 basis point shock, that tells you your balance sheet has significant embedded interest rate risk -- even if your near-term NII looks manageable.</p>
+<p><strong>When it is useful:</strong> NEV captures long-term risk that NII simulation misses. A credit union can have stable projected NII for the next 12 months but an NEV position that signals serious trouble in years two through five.</p>
+<p><strong>Limitations:</strong> NEV is theoretical. You are not going to liquidate your balance sheet. The present value calculations are sensitive to the discount rates and assumptions used, and small changes in assumptions can produce large swings in results.</p>
+<h3>Putting Them Together</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>What It Measures</th>
+<th>Time Horizon</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GAP Analysis</td>
+<td>Repricing mismatch</td>
+<td>Point-in-time</td>
+<td>Quick directional read</td>
+</tr>
+<tr>
+<td>NII Simulation</td>
+<td>Earnings at risk</td>
+<td>12-24 months</td>
+<td>Tactical decisions</td>
+</tr>
+<tr>
+<td>NEV</td>
+<td>Economic value at risk</td>
+<td>Full life of balance sheet</td>
+<td>Long-term strategic risk</td>
+</tr>
+</tbody></table>
+<p>The right approach uses all three. GAP gives you the headline. NII tells you what it means for this year&#39;s income statement. NEV tells you whether the long-term picture is sound. If your ALM vendor is only running one or two of these, you have a gap in your risk management framework -- and your examiner will likely point it out.</p>
+<h2>Building an Effective ALCO</h2>
+<p>Your Asset-Liability Committee is where ALM becomes action. A poorly structured ALCO is just another meeting. A well-structured one is the engine room of your credit union&#39;s financial management.</p>
+<h3>Composition</h3>
+<p>At minimum, your ALCO should include:</p>
+<ul>
+<li><strong>CEO</strong> -- owns the strategic direction and final decision authority</li>
+<li><strong>CFO/VP of Finance</strong> -- presents the data and runs the models</li>
+<li><strong>CLO/VP of Lending</strong> -- represents the asset side (loan production, pipeline, pricing)</li>
+<li><strong>VP of Operations or COO</strong> -- represents the liability side (deposit gathering, member service)</li>
+<li><strong>At least one board member</strong> -- provides governance oversight and board reporting linkage</li>
+</ul>
+<p>Some credit unions also include their VP of Marketing (because deposit campaigns and loan promotions directly affect the balance sheet) and their compliance officer (because regulatory risk intersects with every ALM decision).</p>
+<h3>Meeting Cadence</h3>
+<p>Monthly ALCO meetings are the minimum standard. Quarterly is not enough -- not in this rate environment, and not if you want your ALCO to drive decisions rather than rubber-stamp reports.</p>
+<p>But here is the part most credit unions miss: the ALCO meeting should not be the first time anyone sees the data. If your CFO is presenting ALM results for the first time in the meeting, you have already lost half your decision-making time to people processing information. The data should be distributed at least three business days before the meeting so that committee members arrive prepared to decide, not just to listen.</p>
+<h3>Agenda Structure That Drives Decisions</h3>
+<p>A productive ALCO meeting covers five things:</p>
+<ol>
+<li><strong>Current position</strong> -- Where does the balance sheet sit today? What is the spread? How has it changed since last month?</li>
+<li><strong>Risk metrics</strong> -- NII sensitivity, NEV results, GAP position, liquidity ratios.</li>
+<li><strong>Market outlook</strong> -- What is the rate environment doing? What are peer institutions doing with pricing?</li>
+<li><strong>Action items from last meeting</strong> -- What did we decide last month, and did we execute?</li>
+<li><strong>Decisions needed now</strong> -- What pricing changes, product adjustments, or balance sheet moves should we make in the next 30 days?</li>
+</ol>
+<p>Item five is the one that matters most. If your ALCO meetings consistently end without specific decisions and assigned owners, you are having a book club, not a management meeting.</p>
+<h3>Documentation</h3>
+<p>Every ALCO meeting needs minutes that document what was discussed, what was decided, and who is responsible for execution. This is not optional. NCUA examiners will review your ALCO minutes as part of the Management and Sensitivity components of your CAMELS rating. Sloppy minutes -- or worse, no minutes -- signal to examiners that your ALM program is not being managed with discipline.</p>
+<p>I have seen credit unions get dinged on exam findings not because their ALM position was bad, but because they could not demonstrate that their ALCO was actively managing it. The documentation trail matters as much as the data itself.</p>
+<h2>Interest Rate Risk: The Engine Inside Your ALM Program</h2>
+<p>Interest rate risk is the &quot;S&quot; in CAMELS, and it has received increasing examiner attention since the 2022 supervisory framework update. Understanding the four types of interest rate risk is not academic -- each one can show up in your financials in different ways.</p>
+<h3>Repricing Risk</h3>
+<p>This is the most straightforward. When your assets and liabilities reprice at different times, changes in rates create winners and losers on your income statement. A credit union with $200M in 30-year fixed-rate mortgages funded by $200M in 12-month CDs has massive repricing risk. When those CDs mature and members demand 75 basis points more, your cost of funds jumps while your asset yield stays locked.</p>
+<h3>Basis Risk</h3>
+<p>Basis risk occurs when different rates move at different speeds. Your prime-rate-linked home equity lines might reprice at a different pace than your cost of funds, even when both are nominally tied to &quot;market rates.&quot; In 2023 and 2024, many credit unions saw their deposit costs rise faster than their asset yields repriced -- a classic basis risk problem.</p>
+<h3>Yield Curve Risk</h3>
+<p>When the yield curve changes shape -- flattens, inverts, or steepens -- it affects the profitability of borrowing short and lending long. The 2023-2024 yield curve inversion punished credit unions that were positioned for a normal upward-sloping curve. Your ALM model should test yield curve twist scenarios, not just parallel rate shocks.</p>
+<h3>Options Risk</h3>
+<p>This is the one credit unions underestimate most. Members have embedded options in many of your products: the option to prepay a mortgage, the option to withdraw a CD early, the option to shift funds from a savings account to a higher-paying money market. These behavioral options change the cash flow characteristics of your balance sheet in ways that are hard to model.</p>
+<p>When rates dropped in 2020-2021, mortgage prepayment speeds surged and credit unions saw their highest-yielding assets disappear. When rates rose in 2022-2023, CD early withdrawal penalties could not fully offset the cost of members breaking CDs to chase higher rates elsewhere.</p>
+<p>Your ALM program needs to account for all four types. If your model only runs parallel rate shocks and ignores yield curve risk, basis risk, and optionality, you are getting an incomplete picture of your interest rate exposure. And your examiner knows it.</p>
+<p>For a deeper dive into building an interest rate risk management framework, see our guide to <a href="/resources/interest-rate-risk-management-credit-unions">interest rate risk management for credit unions</a>.</p>
+<h2>Liquidity Risk: The Other Half of ALM</h2>
+<p>Liquidity does not get the headlines that interest rate risk does, but it is the risk that can shut your doors. The NCUA requires credit unions with assets over $50M to maintain a board-approved liquidity policy (under 12 CFR 741.12) and a contingency funding plan.</p>
+<h3>What Sound Liquidity Management Looks Like</h3>
+<p>A credit union with strong liquidity management knows, every day:</p>
+<ul>
+<li><strong>How much cash is available</strong> -- on-balance-sheet liquidity (cash, unpledged investments, available credit lines)</li>
+<li><strong>What is coming in</strong> -- loan payments, investment maturities, new deposit inflows</li>
+<li><strong>What is going out</strong> -- share withdrawals, loan fundings, operating expenses, borrowing maturities</li>
+<li><strong>What the stress scenario looks like</strong> -- if deposit outflows accelerate by 20% or loan demand spikes, where does the cash come from?</li>
+</ul>
+<h3>Early Warning Indicators</h3>
+<p>Your liquidity monitoring should track warning signals including:</p>
+<ul>
+<li>Non-member deposit concentration exceeding 10% of total deposits</li>
+<li>Over-reliance on a single wholesale funding source</li>
+<li>Available borrowing capacity utilization exceeding 60%</li>
+<li>Month-over-month deposit runoff exceeding seasonal norms</li>
+<li>Share certificate early withdrawal volume trending upward</li>
+</ul>
+<p>A $350M credit union I worked with caught a $4.2M month-over-month deposit runoff trend through daily monitoring that would not have surfaced in a monthly report for another three weeks. By the time it would have shown up in the monthly financials, the runoff would have exceeded $6M and triggered a series of reactive decisions. Daily visibility gave them three weeks of runway to adjust their pricing and retention strategy proactively.</p>
+<p>For more on building a robust liquidity management framework, read our guide to <a href="/resources/credit-union-liquidity-management">credit union liquidity management strategies</a>.</p>
+<h3>Contingency Funding Plan</h3>
+<p>Your CFP is not a document you write once and file away. It should be a living plan that identifies:</p>
+<ul>
+<li>Specific funding sources available under stress (FHLB advances, correspondent relationships, investment liquidation)</li>
+<li>Dollar amounts available from each source</li>
+<li>Time to access (same day, next day, within a week)</li>
+<li>Triggers that activate escalating response levels</li>
+<li>Communication protocols for board notification</li>
+</ul>
+<p>NCUA examiners will test your CFP by asking you to walk them through a specific scenario. If your team cannot do that without pulling out the binder and flipping to the right page, that tells the examiner your plan is theoretical, not operational.</p>
+<h2>Balance Sheet Positioning Strategies</h2>
+<p>ALM is not just measurement -- it is management. Here are the practical levers credit union leaders use to position their balance sheets:</p>
+<h3>On the Asset Side</h3>
+<ul>
+<li><p><strong>Loan portfolio mix.</strong> Shifting production emphasis between fixed and adjustable rate products changes your repricing profile. If you are liability-sensitive, pushing more adjustable-rate lending reduces your exposure to rising rates. But member demand has its own gravity -- you cannot force members into products they do not want.</p>
+</li>
+<li><p><strong>Investment portfolio duration.</strong> Shortening your investment portfolio duration gives you more frequent repricing opportunities and greater liquidity. A $400M credit union that moved $15M from 5-year bonds into 2-year bonds improved its NII sensitivity by 8 basis points -- not a dramatic move, but a deliberate one that compounded with other adjustments.</p>
+</li>
+<li><p><strong>Loan participation purchases and sales.</strong> Buying and selling loan participations allows you to adjust your asset mix without relying solely on organic production. This is an underused tool for credit unions in the $100M-$500M range.</p>
+</li>
+</ul>
+<h3>On the Liability Side</h3>
+<ul>
+<li><p><strong>Deposit pricing strategy.</strong> How you price money market accounts, share certificates, and checking products directly affects your cost of funds and your repricing exposure. Raising CD rates to attract longer-term funding reduces repricing risk but increases cost of funds. There is always a tradeoff.</p>
+</li>
+<li><p><strong>Wholesale funding.</strong> FHLB advances and brokered deposits can fill gaps in your funding structure, but overreliance on non-member funding raises examiner eyebrows and introduces concentration risk.</p>
+</li>
+<li><p><strong>Deposit retention programs.</strong> It is cheaper to keep a member&#39;s deposits than to replace them with wholesale funding. A $600M credit union that invested $120,000 in a targeted deposit retention campaign avoided $2.1M in deposit runoff over six months -- a return that dwarfed the investment. But they only caught the runoff trend because they were watching the numbers daily, not monthly.</p>
+</li>
+</ul>
+<h3>The Balance</h3>
+<p>Every positioning decision involves tradeoffs between earnings, risk, and liquidity. Extending asset duration boosts current yield but increases your sensitivity to rising rates. Shortening liability duration reduces cost of funds but increases repricing risk. The ALCO&#39;s job is to make these tradeoffs deliberately, with clear documentation of the rationale behind each decision.</p>
+<h2>The Daily Data Advantage</h2>
+<p>Here is the part of ALM that nobody else is talking about: the difference between daily and monthly financial visibility.</p>
+<p>Most credit unions receive their ALM data on a 30-to-45-day lag. The monthly financial statements close sometime between the 10th and 20th of the following month. The ALM model runs after that. By the time the ALCO reviews the results, they are making decisions based on data that is six to eight weeks old.</p>
+<p>In a stable rate environment, that lag is manageable. In the environment we have lived through since 2022, it is dangerous.</p>
+<p>Consider what can happen in 45 days:</p>
+<ul>
+<li>A $250M credit union can see $3.8M in net deposit outflows</li>
+<li>A 25 basis point Fed move can shift your cost of funds trajectory</li>
+<li>A $2.4M spike in loan delinquencies can change your risk profile</li>
+<li>A competitor&#39;s aggressive CD promotion can pull deposits you did not know were at risk</li>
+</ul>
+<p>If you do not see any of that until six weeks after it happens, you are not managing your balance sheet. You are reacting to history.</p>
+<p>Daily bottom-line visibility changes the equation. When you know the spread between money bought and money sold every 24 hours, you catch trends in days instead of weeks. You see the deposit runoff in real time. You see the loan production pipeline shifting before it shows up in the monthly report. You make smaller, faster adjustments instead of large, reactive corrections.</p>
+<p>A $400M credit union that shifted from monthly to daily financial monitoring identified a $1.2M annualized spread compression trend within the first two weeks. The monthly report would not have flagged it for another month. By the time the quarterly ALCO meeting reviewed it, the compression would have been baked in. Daily visibility gave them six weeks of lead time to adjust pricing and protect their margin.</p>
+<p>That is the daily data advantage. It does not replace your ALM model. It makes every ALM decision sharper because you are working with current information, not stale numbers.</p>
+<p>Want to see your actual spread between money bought and money sold -- updated every 24 hours? <a href="/how-it-works.html">Here is how Mission BOSS delivers daily ALM clarity</a>.</p>
+<h2>NCUA Expectations and Exam Readiness</h2>
+<p>When examiners evaluate your ALM program, they are looking at the &quot;S&quot; (Sensitivity to Market Risk) component of your CAMELS rating, with significant overlap into &quot;M&quot; (Management), &quot;E&quot; (Earnings), and &quot;L&quot; (Liquidity). Here is what they expect to find:</p>
+<h3>Model Validation</h3>
+<p>If your credit union uses an ALM model -- and you should -- NCUA expects independent validation at least every three years, or more frequently if you have made significant changes to the model, your balance sheet structure, or the economic environment. Validation should cover:</p>
+<ul>
+<li>Model methodology and theoretical soundness</li>
+<li>Assumption reasonableness (decay rates, prepayment speeds, pricing betas)</li>
+<li>Back-testing results (how well did the model predict actual outcomes?)</li>
+<li>Limitations and model risk disclosure</li>
+</ul>
+<h3>Documentation Examiners Want to See</h3>
+<ul>
+<li>Board-approved IRR and liquidity policies with clearly defined risk limits</li>
+<li>ALCO meeting minutes showing active discussion and decision-making</li>
+<li>ALM model results with documented assumptions and methodology</li>
+<li>Evidence that model results inform actual decisions (not just filed away)</li>
+<li>Back-testing analysis comparing model projections to actual outcomes</li>
+<li>Contingency funding plan (for credit unions over $50M)</li>
+<li>Independent model validation report</li>
+</ul>
+<h3>Common Findings That Get Credit Unions in Trouble</h3>
+<ol>
+<li><p><strong>Stale assumptions.</strong> Using the same deposit decay rates from 2019 in a 2026 model is a finding waiting to happen. Member behavior has fundamentally changed.</p>
+</li>
+<li><p><strong>No connection between ALM results and decisions.</strong> Examiners look for evidence that ALCO actually acts on the data. If your model shows a significant risk position and your meeting minutes show no response, that is a red flag.</p>
+</li>
+<li><p><strong>Insufficient stress testing.</strong> Running only +/-200 basis point parallel shocks is not enough. Examiners expect to see yield curve scenarios, basis risk analysis, and optionality testing.</p>
+</li>
+<li><p><strong>Outdated policies.</strong> If your IRR policy has not been updated since 2021, it does not reflect the current environment. Policies should be reviewed and updated at least annually.</p>
+</li>
+</ol>
+<p>Credit unions using Mission BOSS walk into exams with documented decisions and daily financial trails. <a href="/case-studies.html">See how it works at credit unions like yours</a>.</p>
+<p>For a complete guide to exam preparation, see our <a href="/resources/ncua-exam-preparation-guide">NCUA exam preparation guide for credit union leaders</a>.</p>
+<h2>ALM for the $100M-$2B Credit Union</h2>
+<p>If you are a $100M credit union, you do not need the same ALM infrastructure as a $5B institution. But you do need a program that is right-sized for your complexity and defensible to your examiner.</p>
+<h3>What You Do Not Need</h3>
+<ul>
+<li>A full-time ALM analyst on staff (outsource the modeling, keep the strategy in-house)</li>
+<li>A custom-built model (reputable third-party models from vendors like ZM Financial, QwickRate, or ALM First are sufficient for most credit unions in this range)</li>
+<li>Monthly consulting retainers from firms that deliver 100-page reports your team does not read</li>
+</ul>
+<h3>What You Absolutely Need</h3>
+<ul>
+<li><strong>An ALCO that meets monthly and makes decisions.</strong> Not reviews. Decisions. With documentation.</li>
+<li><strong>A qualified model provider</strong> whose assumptions you understand and can explain to an examiner.</li>
+<li><strong>Board members who can articulate your risk position</strong> in plain language. If your board chair cannot explain whether you are asset-sensitive or liability-sensitive and what that means for earnings, your ALM program is not reaching the people who need it most.</li>
+<li><strong>A daily read on your financial position.</strong> You do not need a full ALM model run every day. You need to know the spread between money bought and money sold, the direction of deposit flows, and the trajectory of loan production. That daily awareness is what turns quarterly ALM decisions into continuous financial management.</li>
+<li><strong>Clear policies with specific limits</strong> -- not just &quot;we manage interest rate risk&quot; but &quot;our NII sensitivity under a +300 basis point shock will not exceed a 15% decline from base case.&quot;</li>
+</ul>
+<h3>The Right-Sizing Principle</h3>
+<p>Your ALM program should match your balance sheet complexity. A $150M credit union with a straightforward balance sheet -- auto loans, mortgages, share accounts, and CDs -- does not need the same scenario modeling as a $1.5B institution with a complex investment portfolio, multiple wholesale funding sources, and significant off-balance-sheet positions.</p>
+<p>But &quot;simpler&quot; does not mean &quot;less disciplined.&quot; The same principles of daily awareness, documented decisions, and active risk management apply regardless of size. The difference is in the tools, not the rigor.</p>
+<h2>From Analysis to Action: Connecting ALM to Strategic Execution</h2>
+<p>Here is where most ALM programs break down: the gap between analysis and action.</p>
+<p>Your ALM vendor delivers a report. Your ALCO reviews it. Decisions are made (or at least discussed). And then... what? Who is tracking whether the pricing change was implemented? Whether the deposit retention campaign launched? Whether the loan production mix actually shifted as intended?</p>
+<p>In most credit unions, the answer is: nobody, until the next ALCO meeting -- or worse, until the next exam.</p>
+<p>This is the difference between ALM as a compliance exercise and ALM as a management system. The first checks the regulatory box. The second drives your bottom line.</p>
+<p>Effective ALM execution requires:</p>
+<ol>
+<li><p><strong>Tight decision loops.</strong> Two-week cycles, not quarterly reviews. When the ALCO decides to adjust money market pricing by 15 basis points, that decision should be executed within days, with the impact visible within two weeks.</p>
+</li>
+<li><p><strong>Decision documentation.</strong> Every decision needs a record: what was decided, why, by whom, and what the expected outcome was. Not because the examiner wants it (though they do), but because you cannot improve a process you do not track.</p>
+</li>
+<li><p><strong>Accountability.</strong> Someone owns every action item. Not &quot;the team.&quot; Not &quot;management.&quot; A named individual with a deadline and a deliverable.</p>
+</li>
+<li><p><strong>Feedback loops.</strong> Did the decision produce the expected result? If you raised CD rates to slow deposit runoff, did the runoff actually slow? If you shifted loan production toward adjustable-rate products, did the mix change? Without closing the loop, you are making decisions in the dark.</p>
+</li>
+</ol>
+<p>This is the operating rhythm that separates credit unions that manage their balance sheet from credit unions that react to it. And it is exactly the kind of discipline that <a href="/how-it-works.html">Mission BOSS&#39;s three-pillar system</a> is built to support -- daily bottom-line visibility, drivers and roadblocks that show why the numbers moved, and a decision documentation framework that keeps every action tracked and accountable.</p>
+<h2>How Mission BOSS Supports Your ALM Program</h2>
+<p>Mission BOSS is not an ALM model. It does not replace your third-party modeling vendor, and it does not run NII simulations or NEV calculations. What it does is fill the gap that sits between your quarterly ALM report and the daily decisions that actually drive your balance sheet.</p>
+<p>The three pillars of Mission BOSS connect directly to ALM execution:</p>
+<ul>
+<li><p><strong>Daily Bottom Line</strong> gives you the spread between money bought and money sold every 24 hours. That is the fundamental ALM metric -- and you see it daily instead of monthly.</p>
+</li>
+<li><p><strong>Drivers and Roadblocks</strong> shows you why the spread moved. Was it deposit repricing? Loan production volume? A shift in the investment portfolio? The scorecard connects cause and effect so your ALCO discussions are grounded in current data, not stale reports.</p>
+</li>
+<li><p><strong>Deciding is Doing</strong> documents every decision in tight two-week loops with an audit-ready trail. When your examiner asks &quot;what did you do when you saw the spread compress?&quot; you have a documented answer with dates, decisions, and outcomes.</p>
+</li>
+</ul>
+<p>Michael Kelly built Mission BOSS after <a href="/about.html">25 years of building and advising financial institutions</a> -- including sitting in ALCO meetings where good data arrived too late to drive good decisions. The system exists because the gap between ALM analysis and ALM execution is where most credit unions lose money.</p>
+<p><strong>See what your daily bottom line looks like inside Mission BOSS -- and how it changes every ALM conversation at your credit union.</strong> <a href="/start-here.html">Start here</a>.</p>
+<h2>FAQ: Asset Liability Management for Credit Unions</h2>
+<h3>What is asset liability management in a credit union?</h3>
+<p>Asset liability management (ALM) is the process of managing the spread between the rate a credit union pays for deposits and borrowings (money bought) and the rate it earns on loans and investments (money sold). ALM encompasses interest rate risk management, liquidity management, earnings stability, and capital adequacy. The goal is to maintain a healthy net interest margin while ensuring the credit union can meet all financial obligations under both normal and stressed conditions.</p>
+<h3>What does an ALCO committee do?</h3>
+<p>The Asset-Liability Committee (ALCO) is the management body responsible for overseeing a credit union&#39;s ALM program. The ALCO typically includes the CEO, CFO, chief lending officer, and at least one board member. The committee meets monthly (at minimum) to review the credit union&#39;s current financial position, assess risk metrics from ALM models, evaluate market conditions, review prior decisions and their outcomes, and make decisions about pricing, balance sheet positioning, and risk management strategies. ALCO decisions should be documented in minutes that demonstrate active management of the balance sheet.</p>
+<h3>What is the difference between NEV and NII?</h3>
+<p>Net Interest Income (NII) simulation measures how your credit union&#39;s earnings would change under different interest rate scenarios over the next 12 to 24 months. It answers the question: &quot;How much money will we make or lose if rates move?&quot; Net Economic Value (NEV) measures the present value change of your entire balance sheet -- all assets minus all liabilities -- under different rate scenarios. It answers the question: &quot;What happens to the long-term economic value of this institution if rates change?&quot; NII captures near-term earnings risk, while NEV captures long-term balance sheet risk. A credit union can have stable short-term NII but a deteriorating NEV position, which is why both methods are necessary.</p>
+<h3>How often should a credit union update its ALM model?</h3>
+<p>Most credit unions run their ALM model monthly, using month-end financial data. The model should be validated independently at least every three years, or more frequently after significant changes to the balance sheet, model methodology, or economic environment. Beyond the formal model run, credit unions should monitor key ALM indicators -- particularly the spread between money bought and money sold, deposit flows, and loan production trends -- on a daily basis to catch emerging trends between model runs.</p>
+<h3>What are the NCUA requirements for ALM?</h3>
+<p>The NCUA requires credit unions to have a comprehensive IRR management program under 12 CFR Part 741, Appendix A. This includes a board-approved IRR policy with defined risk limits, regular measurement using appropriate methods (GAP, NII, NEV), an active ALCO or equivalent oversight structure, documented assumptions and methodology, independent model validation, and stress testing under multiple scenarios. Credit unions over $50M must also maintain a board-approved liquidity policy and contingency funding plan under 12 CFR 741.12. Examiners evaluate ALM primarily under the Sensitivity (&quot;S&quot;) component of the CAMELS rating system, with overlap into Management, Earnings, and Liquidity components.</p>
+<hr>
+<h2>Schema Markup</h2>
+<h3>Article Schema (JSON-LD)</h3>
+<pre><code class="language-json">{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Article&quot;,
+  &quot;headline&quot;: &quot;Asset Liability Management for Credit Unions: The Operator&#39;s Guide&quot;,
+  &quot;description&quot;: &quot;A practical ALM guide for credit union leaders covering GAP, NII, NEV methods, ALCO structure, interest rate risk, and daily data strategies.&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Michael Kelly&quot;,
+    &quot;jobTitle&quot;: &quot;Founder&quot;,
+    &quot;worksFor&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;Mission BOSS&quot;
+    },
+    &quot;description&quot;: &quot;Michael Kelly spent 25+ years building and advising financial institutions before creating Mission BOSS — the strategic operating system for credit union leaders who want daily clarity on their bottom line.&quot;
+  },
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;Mission BOSS&quot;,
+    &quot;url&quot;: &quot;https://www.missionboss.io&quot;
+  },
+  &quot;datePublished&quot;: &quot;2026-04-07&quot;,
+  &quot;dateModified&quot;: &quot;2026-04-07&quot;,
+  &quot;mainEntityOfPage&quot;: {
+    &quot;@type&quot;: &quot;WebPage&quot;,
+    &quot;@id&quot;: &quot;https://www.missionboss.io/resources/asset-liability-management-credit-unions&quot;
+  },
+  &quot;keywords&quot;: [&quot;asset liability management&quot;, &quot;credit union ALM&quot;, &quot;ALCO committee&quot;, &quot;interest rate risk credit union&quot;, &quot;NEV&quot;, &quot;NII simulation&quot;, &quot;GAP analysis&quot;]
+}
+</code></pre>
+<h3>FAQPage Schema (JSON-LD)</h3>
+<pre><code class="language-json">{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What is asset liability management in a credit union?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Asset liability management (ALM) is the process of managing the spread between the rate a credit union pays for deposits and borrowings (money bought) and the rate it earns on loans and investments (money sold). ALM encompasses interest rate risk management, liquidity management, earnings stability, and capital adequacy. The goal is to maintain a healthy net interest margin while ensuring the credit union can meet all financial obligations under both normal and stressed conditions.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What does an ALCO committee do?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;The Asset-Liability Committee (ALCO) is the management body responsible for overseeing a credit union&#39;s ALM program. The ALCO typically includes the CEO, CFO, chief lending officer, and at least one board member. The committee meets monthly (at minimum) to review the credit union&#39;s current financial position, assess risk metrics from ALM models, evaluate market conditions, review prior decisions and their outcomes, and make decisions about pricing, balance sheet positioning, and risk management strategies.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What is the difference between NEV and NII?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Net Interest Income (NII) simulation measures how your credit union&#39;s earnings would change under different interest rate scenarios over the next 12 to 24 months. Net Economic Value (NEV) measures the present value change of your entire balance sheet under different rate scenarios. NII captures near-term earnings risk, while NEV captures long-term balance sheet risk. A credit union can have stable short-term NII but a deteriorating NEV position, which is why both methods are necessary.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;How often should a credit union update its ALM model?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Most credit unions run their ALM model monthly, using month-end financial data. The model should be validated independently at least every three years, or more frequently after significant changes to the balance sheet, model methodology, or economic environment. Beyond the formal model run, credit unions should monitor key ALM indicators on a daily basis to catch emerging trends between model runs.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;What are the NCUA requirements for ALM?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;The NCUA requires credit unions to have a comprehensive IRR management program under 12 CFR Part 741, Appendix A. This includes a board-approved IRR policy with defined risk limits, regular measurement using appropriate methods (GAP, NII, NEV), an active ALCO or equivalent oversight structure, documented assumptions and methodology, independent model validation, and stress testing under multiple scenarios. Credit unions over $50M must also maintain a board-approved liquidity policy and contingency funding plan under 12 CFR 741.12.&quot;
+      }
+    }
+  ]
+}
+</code></pre>
+
+      </div>
+      <div class="article-meta">
+        <div class="article-meta__author">
+          <span class="article-meta__label">Written by</span>
+          <span class="article-meta__name">Michael Kelly</span>
+        </div>
+        <div class="article-meta__details">
+          <time class="article-meta__date" datetime="2026-04-07">April 7, 2026</time>
+          <span class="article-meta__tag article-meta__tag--pillar">Asset Liability Management</span>
+          <span class="article-meta__tag article-meta__tag--cluster">Asset-Liability Management</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ====== CTA BANNER ====== -->
+  <section class="cta-banner" id="cta">
+    <div class="container">
+      <h2 class="cta-banner__title">Ready to BOSS Your Mission?</h2>
+      <p class="cta-banner__text">
+        Your mission is too important for guesswork. Get daily clarity on your bottom line and start making decisions that stick.
+      </p>
+      <a href="/start-here" class="btn btn--gold btn--large btn--arrow">Start Here</a>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-name">
+            <img src="/img/mission-boss-logo-white.png" alt="Mission BOSS" class="footer__logo-img" />
+          </div>
+          <p class="footer__brand-text">
+            Daily clarity, honest scorecards, and documented decisions for credit union leaders who want to lead with facts.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigate</h4>
+          <a href="/" class="footer__link">Home</a>
+          <a href="/how-it-works" class="footer__link">How It Works</a>
+          <a href="/case-studies" class="footer__link">Case Studies</a>
+          <a href="/about" class="footer__link">About</a>
+          <a href="/media-appearances" class="footer__link">Media</a>
+          <a href="/resources" class="footer__link">Resources</a>
+          <a href="/start-here" class="footer__link">Start Here</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Connect</h4>
+          <a href="mailto:mike@missionboss.com" class="footer__link">mike@missionboss.com</a>
+          <a href="#" class="footer__link">LinkedIn</a>
+          <a href="#" class="footer__link">Skool Community</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Mission BOSS. All rights reserved.</span>
+        <span>Franklin, TN</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
