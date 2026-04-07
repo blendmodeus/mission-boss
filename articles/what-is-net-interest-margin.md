@@ -158,7 +158,7 @@ ROA (return on assets) is a downstream number -- it includes non-interest income
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.co/resources/what-is-net-interest-margin"
+    "@id": "https://www.missionboss.com/resources/what-is-net-interest-margin"
   }
 }
 </script>

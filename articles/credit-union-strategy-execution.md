@@ -21,18 +21,18 @@ schema_faq: true
     "@type": "Person",
     "name": "Michael Kelly",
     "description": "Michael Kelly spent 25+ years building and advising financial institutions before creating Mission BOSS — the strategic operating system for credit union leaders who want daily clarity on their bottom line.",
-    "url": "https://missionboss.co/about.html"
+    "url": "https://www.missionboss.com/about.html"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://missionboss.co"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://missionboss.co/resources/credit-union-strategy-execution/"
+    "@id": "https://www.missionboss.com/resources/credit-union-strategy-execution/"
   },
   "keywords": ["credit union strategy execution", "credit union decision making", "credit union decision documentation", "credit union strategic plan execution", "credit union execution gap"]
 }

@@ -452,13 +452,13 @@ For credit unions in the $100M to $2B asset range, the on-site examination typic
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://www.missionboss.io"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.io/resources/ncua-exam-preparation-guide"
+    "@id": "https://www.missionboss.com/resources/ncua-exam-preparation-guide"
   },
   "keywords": ["NCUA exam", "NCUA exam preparation", "CAMELS rating system", "NCUA supervisory priorities 2026", "credit union examination"]
 }

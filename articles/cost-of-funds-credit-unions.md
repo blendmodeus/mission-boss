@@ -236,7 +236,7 @@ Five practical approaches: (1) Reprice maturing CDs and borrowings at current lo
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.co/resources/cost-of-funds-credit-unions"
+    "@id": "https://www.missionboss.com/resources/cost-of-funds-credit-unions"
   }
 }
 </script>

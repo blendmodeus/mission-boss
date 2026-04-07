@@ -290,7 +290,7 @@ The three most common causes of NIM compression are: (1) rising deposit costs ou
     "@type": "Person",
     "name": "Michael Kelly",
     "jobTitle": "Founder",
-    "url": "https://www.missionboss.co/about.html",
+    "url": "https://www.missionboss.com/about.html",
     "affiliation": {
       "@type": "Organization",
       "name": "Mission BOSS"
@@ -304,7 +304,7 @@ The three most common causes of NIM compression are: (1) rising deposit costs ou
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.co/resources/net-interest-margin-credit-unions-guide"
+    "@id": "https://www.missionboss.com/resources/net-interest-margin-credit-unions-guide"
   }
 }
 </script>

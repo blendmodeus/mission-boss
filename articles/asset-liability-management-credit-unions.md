@@ -386,13 +386,13 @@ The NCUA requires credit unions to have a comprehensive IRR management program u
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://www.missionboss.io"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.io/resources/asset-liability-management-credit-unions"
+    "@id": "https://www.missionboss.com/resources/asset-liability-management-credit-unions"
   },
   "keywords": ["asset liability management", "credit union ALM", "ALCO committee", "interest rate risk credit union", "NEV", "NII simulation", "GAP analysis"]
 }

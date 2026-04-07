@@ -251,13 +251,13 @@ Liquidity risk and interest rate risk are the two core components of asset liabi
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://www.missionboss.io"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.io/resources/credit-union-liquidity-management"
+    "@id": "https://www.missionboss.com/resources/credit-union-liquidity-management"
   },
   "keywords": ["credit union liquidity management", "credit union liquidity risk", "contingency funding plan", "NCUA liquidity requirements", "credit union cash flow projections"]
 }

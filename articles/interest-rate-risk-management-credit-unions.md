@@ -250,13 +250,13 @@ Most credit unions run their formal IRR model monthly using month-end data, with
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://www.missionboss.io"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.io/resources/interest-rate-risk-management-credit-unions"
+    "@id": "https://www.missionboss.com/resources/interest-rate-risk-management-credit-unions"
   },
   "keywords": ["interest rate risk management", "credit union interest rate risk", "credit union ALM", "NCUA interest rate risk", "IRR management credit union", "CAMELS S component", "NEV", "NII simulation"]
 }

@@ -37,7 +37,7 @@ const NAV = `  <!-- ====== NAVIGATION ====== -->
         </div>
         <div class="nav-utility__actions">
           <a href="/resources" class="nav-utility__link">Resources</a>
-          <a href="https://missionboss.com" class="nav-utility__link" target="_blank">Login</a>
+          <a href="https://www.missionboss.com" class="nav-utility__link" target="_blank">Login</a>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ const NAV = `  <!-- ====== NAVIGATION ====== -->
           <a href="/about" class="nav__link">About</a>
           <a href="/media-appearances" class="nav__link">Media</a>
           <a href="/resources" class="nav__link mobile-only">Resources</a>
-          <a href="https://missionboss.com" class="nav__link mobile-only" target="_blank">Login</a>
+          <a href="https://www.missionboss.com" class="nav__link mobile-only" target="_blank">Login</a>
           <a href="/start-here" class="nav__cta btn btn--primary">Start Here</a>
         </div>
       </div>

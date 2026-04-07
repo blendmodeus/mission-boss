@@ -21,18 +21,18 @@ schema_faq: true
     "@type": "Person",
     "name": "Michael Kelly",
     "description": "Michael Kelly spent 25+ years building and advising financial institutions before creating Mission BOSS — the strategic operating system for credit union leaders who want daily clarity on their bottom line.",
-    "url": "https://missionboss.co/about.html"
+    "url": "https://www.missionboss.com/about.html"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://missionboss.co"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://missionboss.co/resources/credit-union-strategic-plan-template/"
+    "@id": "https://www.missionboss.com/resources/credit-union-strategic-plan-template/"
   },
   "keywords": ["credit union strategic planning template", "credit union strategic plan examples", "credit union strategic planning ideas", "credit union strategic plan template", "strategic plan template credit union"]
 }

@@ -291,7 +291,7 @@ Because the same net interest income produces very different NIM percentages dep
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.co/resources/net-interest-margin-calculation"
+    "@id": "https://www.missionboss.com/resources/net-interest-margin-calculation"
   }
 }
 </script>

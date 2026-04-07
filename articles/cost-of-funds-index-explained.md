@@ -156,7 +156,7 @@ Interest rates set the environment, but your cost of funds determines your margi
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.co/resources/cost-of-funds-index-explained"
+    "@id": "https://www.missionboss.com/resources/cost-of-funds-index-explained"
   }
 }
 </script>

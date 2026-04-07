@@ -196,13 +196,13 @@ Credit unions reduce interest rate risk through balance sheet positioning (adjus
   "publisher": {
     "@type": "Organization",
     "name": "Mission BOSS",
-    "url": "https://www.missionboss.io"
+    "url": "https://www.missionboss.com"
   },
   "datePublished": "2026-04-07",
   "dateModified": "2026-04-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.missionboss.io/resources/daily-data-alm-credit-unions"
+    "@id": "https://www.missionboss.com/resources/daily-data-alm-credit-unions"
   },
   "keywords": ["credit union ALM", "credit union asset liability management", "daily financial data credit union", "ALM reporting credit union", "daily bottom line"]
 }
