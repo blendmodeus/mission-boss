@@ -1,0 +1,260 @@
+---
+title: 'Daily Data to Improve ALM at Credit Unions'
+description: 'How credit unions can use daily financial data to improve ALM outcomes, catch risks faster, and make better balance sheet decisions.'
+author: 'Michael Kelly'
+date: '2026-04-07'
+cluster: 'cluster-02-alm'
+pillar: 'Asset Liability Management'
+target_keyword: 'credit union ALM'
+secondary_keywords: ['credit union asset liability management', 'daily financial data credit union', 'ALM reporting credit union']
+schema_article: true
+schema_faq: true
+---
+
+# How Credit Unions Can Use Daily Data to Improve ALM Outcomes
+
+Your ALM model is only as useful as the data feeding it and the speed at which your team acts on the output. For most credit unions, both are lagging.
+
+Here is the standard ALM cycle at a credit union between $100M and $2B in assets: month-end closes, financial data is compiled over the next 10-15 business days, the data feeds the ALM model, the model runs, results are formatted into a report, and the report is presented at the next ALCO meeting. Total elapsed time from month-end to decision: 30 to 45 days. Sometimes longer.
+
+In a rate environment that moves daily, that cycle is not a minor inconvenience. It is a structural disadvantage baked into your management process. Every decision your ALCO makes is based on information that is already stale. And every day between reports, things are happening to your balance sheet that nobody sees until the next cycle.
+
+There is a better way. It does not require replacing your ALM model or firing your ALM vendor. It requires seeing the numbers that drive your balance sheet every 24 hours instead of every 30 days.
+
+## The 30-Day Blind Spot in Most ALM Programs
+
+The fundamental problem with monthly ALM reporting is not the model. Most credit unions use competent ALM vendors with sound methodologies. The problem is the gap between what the model projects and what your team knows on any given Tuesday.
+
+Consider a $500M credit union running its ALM model on January month-end data. The model runs in mid-February. Results are reviewed at the late-February ALCO meeting. The committee discusses rate risk, reviews NII and NEV scenarios, and makes decisions about loan pricing and deposit strategy.
+
+But by late February, the data behind those decisions is nearly two months old. The January balance sheet snapshot does not reflect the $1.6M in deposit outflows that happened in the first two weeks of February. It does not capture the shift in loan pipeline composition that started when a competitor dropped their auto rate by 40 basis points. It does not show the CD maturities that were not renewed because members found better rates elsewhere.
+
+The ALCO is making decisions in the rearview mirror. Not because the committee is careless, but because the system is designed to deliver old information.
+
+For credit unions in the $100M-$2B range, this blind spot is not theoretical. The numbers that move between reports are material. A $300M credit union can see $1.5M-$3M in net deposit movement in a single month. A 15 basis point shift in cost of funds translates to $450K in annualized earnings impact. These are numbers that change the right answer on pricing, product strategy, and balance sheet positioning -- but only if the team sees them in time to respond.
+
+For the complete picture on how ALM programs should be structured, see our [comprehensive guide to asset liability management for credit unions](/resources/asset-liability-management-credit-unions).
+
+## What Happens in Those 30 Days
+
+Walk through a realistic month at a $400M credit union to see what the blind spot actually costs.
+
+**Week one:** The Fed signals a potential rate move at the next meeting. Deposit-sensitive members start repositioning. Your credit union sees $380K in net share outflows, concentrated in money market accounts. Nobody on the leadership team knows this yet because the daily ledger totals are buried in the core system and nobody is watching them in a structured way.
+
+**Week two:** A regional bank launches a 5.10% 12-month CD special. Your 12-month CD is at 4.50%. Members start calling branches to ask about rates. Share certificate early withdrawals tick up by $120K above normal. Two large commercial depositors move $500K each to the competing bank. Your cost of funds has shifted, but the shift is invisible at the leadership level.
+
+**Week three:** Your mortgage pipeline closes $2.8M in new originations at fixed rates averaging 6.75%. Solid production, but the funding for those loans came partly from wholesale sources at 5.20% -- a spread of 155 basis points instead of the 250 basis points your pricing model assumed when it was calibrated to a lower cost of funds. The actual margin on new production is thinner than the team thinks.
+
+**Week four:** The month closes. The finance team starts compiling the data. In 10-15 business days, the reports will be ready. In another week or two, the ALCO will review them. By then, it will be six weeks since the deposit outflows started, and the team will be seeing the problem for the first time.
+
+Six weeks of delayed awareness on a trend that was actionable in week one. That is what the 30-day blind spot costs.
+
+## The Daily Bottom Line: A Different Starting Point
+
+Daily ALM visibility starts with one number: the spread between money bought and money sold, updated every 24 hours.
+
+Not a dashboard full of 47 charts. Not a 12-tab spreadsheet with conditional formatting. A single, clear metric that tells you whether today was better or worse than yesterday -- and a framework for understanding why.
+
+When the CEO, CFO, and COO all see the same daily spread number, the conversation changes. Instead of waiting for the monthly report to confirm what everyone suspects, the leadership team operates on shared, current information. The CFO does not have to compile a special report to flag a concern. The number speaks for itself.
+
+At a $500M credit union that made this shift, the ALCO used to spend 45 minutes reviewing last month's data. After moving to daily visibility, they spend 15 minutes confirming what they already knew from the daily numbers and 30 minutes making decisions about what to do next. The meeting went from a reporting session to a decision-making session because the data was no longer news -- it was context for action.
+
+Want to see the actual spread between money bought and money sold at your credit union -- updated every 24 hours? [Here is how it works](/how-it-works.html).
+
+## How Daily Data Changes ALM Conversations
+
+When your leadership team has daily financial visibility, three things change about how ALM decisions get made.
+
+### Loan Pricing Becomes Responsive
+
+With monthly data, loan pricing reviews happen on a fixed schedule. The pricing committee meets, reviews the most recent cost of funds data (which is already weeks old), and sets rates for the next period.
+
+With daily data, the team sees cost of funds movements as they happen. When your marginal cost of funds ticks up 10 basis points because deposit pricing shifted, the impact on your spread is visible the next morning. Pricing adjustments can happen within days instead of waiting for the next scheduled review.
+
+A $350M credit union caught a 12 basis point increase in its effective cost of funds over an eight-day period through daily monitoring. They adjusted their auto loan pricing by 15 basis points within three days. Under their old monthly cycle, that cost of funds increase would not have surfaced for three more weeks, and the credit union would have booked roughly $1.8M in new auto loans at pricing that did not reflect their actual funding cost.
+
+### Deposit Strategy Shifts From Reactive to Proactive
+
+Monthly reporting tells you about deposit trends after they have played out. Daily visibility tells you about deposit movements as they happen.
+
+When a competitor launches a rate promotion and your members start moving money, you see the outflow in the daily numbers within 48 hours. You can launch a targeted retention campaign within a week. You can adjust your own promotional rates within days.
+
+Compare that to the monthly cycle: you discover the outflow four to six weeks after it starts, by which point the money has moved, the members have opened accounts elsewhere, and the cost of winning them back is significantly higher than the cost of retaining them would have been.
+
+### Investment Timing Gets Smarter
+
+Investment portfolio decisions -- buying, selling, extending, shortening -- depend on your current liquidity position and rate outlook. When you know your daily cash position and spread, you can time investment purchases and sales with precision instead of making bulk portfolio moves at scheduled intervals.
+
+A $600M credit union that tracked daily spreads noticed their spread consistently widened by 3-5 basis points in the first week of each month (driven by mortgage payment inflows) and compressed in the third week (driven by payroll and operating expense outflows). That pattern was invisible in monthly data but actionable with daily visibility -- they began timing investment purchases to coincide with the monthly cash flow peak, improving their average purchase yield by 6 basis points over six months.
+
+## Daily Visibility and Interest Rate Risk
+
+Interest rate risk shows up in your daily spread before it shows up in your quarterly NEV report. That is not a criticism of NEV -- it is a statement about data freshness.
+
+When the basis between your asset yields and liability costs shifts, the daily spread captures it immediately. You do not need to wait for the model to tell you that rising deposit costs are compressing your margin. You see it in the numbers every morning.
+
+A $400M credit union identified a basis risk problem through seven consecutive days of declining daily spread. Their deposit costs were repricing 15 basis points faster than their variable-rate assets -- a dynamic that would not have appeared in their quarterly NEV report for another five weeks. They adjusted their money market pricing within 10 days, limiting the annual spread impact to approximately $180K. Without daily visibility, the unchecked compression would have exceeded $450K by the time the quarterly model flagged it.
+
+Daily data does not replace your IRR model. Your model provides the scenario analysis, stress testing, and long-term structural risk assessment that daily numbers cannot. But daily data ensures that the people interpreting those model results and making decisions based on them have current context about what is actually happening on the balance sheet.
+
+For a detailed framework on building your IRR management program, see our guide to [interest rate risk management for credit unions](/resources/interest-rate-risk-management-credit-unions).
+
+## Daily Visibility and Liquidity Management
+
+Deposit runoff is the liquidity risk that keeps CFOs up at night -- and it is the risk that monthly reporting is worst at catching early.
+
+Daily cash flow tracking surfaces deposit outflow patterns within days of their onset. When a member segment starts moving money, you see it in the numbers tomorrow morning, not at the next month-end close.
+
+A $350M credit union caught $2.4M in accelerating monthly deposit outflows through daily monitoring. The outflows were concentrated in money market accounts among members over 65 -- a segment that was being targeted by a local bank's promotional campaign. The daily numbers showed the pattern within the first nine days of the month. The credit union launched a targeted rate match for the affected segment within two weeks. Under monthly reporting, they would have seen the aggregate outflow at the earliest 25 days later, by which point the total runoff would have exceeded $3.5M and the members would have been harder to retain.
+
+Daily liquidity visibility changes the management approach from "are we liquid enough today?" to "where is the liquidity trending, and do we need to act?" That shift from snapshot to trajectory is the difference between reactive and proactive liquidity management.
+
+For a deeper look at building your liquidity management framework, see our guide to [credit union liquidity management](/resources/credit-union-liquidity-management).
+
+## What This Means for Your Next NCUA Exam
+
+Examiners evaluate your ALM program on four criteria: identify, measure, monitor, and control. Daily data strengthens every one of them.
+
+**Identify:** Daily spread tracking surfaces emerging risks -- basis risk, deposit repricing pressure, funding cost increases -- days or weeks before quarterly models would flag them. That demonstrates a level of risk identification that goes beyond what most credit unions can show.
+
+**Measure:** Your ALM model still handles formal measurement. But when the model results arrive, your team can immediately contextualize them against what they have been observing in the daily numbers. "The model shows 200 basis points of NII sensitivity, and our daily spread has already reflected 40 basis points of that compression over the past six weeks" is a much stronger ALCO narrative than "the model shows 200 basis points of sensitivity."
+
+**Monitor:** This is where daily data creates the strongest exam story. Continuous monitoring is the gold standard examiners look for, and daily visibility delivers it. Every daily observation becomes part of a documented monitoring trail.
+
+**Control:** When you identify risks faster and monitor them continuously, your control responses are faster and better documented. The examiner sees not just that you identified a risk position, but that you identified it quickly, made a specific decision to address it, executed that decision, and measured the result -- all documented with dates and outcomes.
+
+Credit unions that walk into exams with a trail of daily observations and documented decisions supported by those observations consistently tell a stronger management story than credit unions that present quarterly model results alone.
+
+## Making the Shift: From Monthly Reports to Daily Discipline
+
+Moving to daily ALM visibility is not a technology project. It is a management discipline shift.
+
+You are not replacing your ALM model. You are not firing your ALM vendor. You are not building a new reporting infrastructure from scratch. You are adding a daily operating layer that gives your leadership team current financial awareness and a framework for faster decision-making.
+
+The practical requirements:
+
+**Data availability.** Your core system already produces the daily ledger data needed to calculate the spread between money bought and money sold. The challenge is not generating the data -- it is structuring it into a daily metric that leadership can act on.
+
+**Leadership commitment.** Daily data only matters if leadership looks at it. The CEO, CFO, and COO need to incorporate the daily number into their operating rhythm. It takes five minutes a day, but those five minutes need to become a habit.
+
+**Decision framework.** Daily awareness without a decision framework is just more data. The daily number needs to connect to a system for flagging trends, making decisions in tight two-week loops, and documenting the decisions and their outcomes. That is the difference between daily reporting and daily management.
+
+**Complement, not replace.** Daily visibility works alongside your existing ALM model, not instead of it. The daily spread gives you current awareness. The model gives you scenario analysis and long-term structural insight. The combination is stronger than either alone.
+
+For any credit union over $100M, the case for daily visibility is straightforward: the information your team needs to manage the balance sheet exists in your core system every day. The only question is whether you are going to look at it daily or wait 30 to 45 days for someone to compile it into a report.
+
+Michael Kelly built Mission BOSS after [25 years of working inside and alongside credit unions](/about.html) -- including years of watching leadership teams make good decisions too late because the data arrived after the moment had passed. The system exists to close that gap.
+
+## Take the Next Step
+
+See what your daily bottom line looks like -- and how it changes every ALM conversation at your credit union. [Start here](/start-here.html).
+
+## FAQ: Daily Data and Credit Union ALM
+
+### How often should a credit union update ALM reports?
+
+Most credit unions run formal ALM models monthly using month-end financial data, with comprehensive stress testing at least quarterly. However, the formal model run should not be the only time leadership monitors the balance sheet. Daily visibility into the spread between money bought and money sold gives the leadership team continuous awareness of how the balance sheet is performing. The daily metric does not replace the model -- it ensures the team is never surprised by the model's results because they have been watching the underlying dynamics in real time.
+
+### What data does an ALM model need?
+
+An ALM model requires detailed information about every asset and liability on the balance sheet: loan balances, rates, maturities, repricing schedules, and prepayment characteristics on the asset side, and deposit balances, rates, maturity profiles, and behavioral assumptions (decay rates, pricing sensitivity) on the liability side. The model also needs assumptions about new business volume, rate scenarios for stress testing, and market rate curves. The quality of the output depends entirely on the freshness and accuracy of these inputs -- which is why daily data awareness helps credit unions validate and challenge the assumptions feeding their models.
+
+### How do credit unions improve ALM outcomes?
+
+Credit unions improve ALM outcomes by increasing data freshness (moving from monthly to daily financial awareness), strengthening ALCO decision-making (shifting from report reviews to active decision sessions), tightening execution loops (two-week decision cycles instead of quarterly reviews), improving model assumptions through regular back-testing, and documenting decisions with their rationale and outcomes. The single highest-impact change for most credit unions is reducing the time between when a balance sheet trend emerges and when leadership sees it and responds.
+
+### What is the role of daily financial reporting in credit unions?
+
+Daily financial reporting gives credit union leadership a current read on the institution's financial performance -- specifically the spread between money bought (cost of deposits and borrowings) and money sold (yield on loans and investments). This daily metric serves as an early warning system for emerging trends (deposit runoff, cost of funds increases, spread compression) and provides context that makes weekly and monthly management conversations more productive. It does not replace formal financial statements or ALM model runs but ensures the team is working with current information between those formal reporting cycles.
+
+### How can credit unions reduce interest rate risk?
+
+Credit unions reduce interest rate risk through balance sheet positioning (adjusting the mix of fixed and variable rate assets and liabilities), loan pricing adjustments (ensuring new production reflects current funding costs), deposit strategy (extending deposit duration through CD promotions or adjusting non-maturity deposit pricing), investment portfolio management (shortening or extending duration based on rate outlook), and in some cases hedging instruments. The most effective IRR management programs combine sound strategy with daily monitoring of the spread between money bought and money sold, enabling faster identification of rate impacts and faster response times.
+
+---
+
+## Schema Markup
+
+### Article Schema (JSON-LD)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Credit Unions Can Use Daily Data to Improve ALM Outcomes",
+  "description": "How credit unions can use daily financial data to improve ALM outcomes, catch risks faster, and make better balance sheet decisions.",
+  "author": {
+    "@type": "Person",
+    "name": "Michael Kelly",
+    "jobTitle": "Founder",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Mission BOSS"
+    },
+    "description": "Michael Kelly spent 25+ years building and advising financial institutions before creating Mission BOSS — the strategic operating system for credit union leaders who want daily clarity on their bottom line."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mission BOSS",
+    "url": "https://www.missionboss.io"
+  },
+  "datePublished": "2026-04-07",
+  "dateModified": "2026-04-07",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.missionboss.io/resources/daily-data-alm-credit-unions"
+  },
+  "keywords": ["credit union ALM", "credit union asset liability management", "daily financial data credit union", "ALM reporting credit union", "daily bottom line"]
+}
+```
+
+### FAQPage Schema (JSON-LD)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should a credit union update ALM reports?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most credit unions run formal ALM models monthly using month-end financial data, with comprehensive stress testing at least quarterly. However, daily visibility into the spread between money bought and money sold gives the leadership team continuous awareness of balance sheet performance between formal model runs. The daily metric does not replace the model -- it ensures the team is never surprised by the model's results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What data does an ALM model need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An ALM model requires detailed information about every asset and liability on the balance sheet: loan balances, rates, maturities, repricing schedules, and prepayment characteristics on the asset side, and deposit balances, rates, maturity profiles, and behavioral assumptions on the liability side. The model also needs assumptions about new business volume, rate scenarios, and market rate curves."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do credit unions improve ALM outcomes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Credit unions improve ALM outcomes by increasing data freshness (moving from monthly to daily financial awareness), strengthening ALCO decision-making, tightening execution loops to two-week decision cycles, improving model assumptions through regular back-testing, and documenting decisions with rationale and outcomes. The single highest-impact change is reducing the time between when a trend emerges and when leadership responds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the role of daily financial reporting in credit unions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Daily financial reporting gives credit union leadership a current read on the spread between money bought and money sold. This daily metric serves as an early warning system for emerging trends like deposit runoff and spread compression, and provides context that makes management conversations more productive. It does not replace formal financial statements or ALM model runs but ensures the team works with current information between formal reporting cycles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can credit unions reduce interest rate risk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Credit unions reduce interest rate risk through balance sheet positioning, loan pricing adjustments, deposit strategy changes, investment portfolio management, and in some cases hedging instruments. The most effective programs combine sound strategy with daily monitoring of the spread between money bought and money sold, enabling faster identification of rate impacts and faster response times."
+      }
+    }
+  ]
+}
+```

@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Case Studies — Mission BOSS</title>
-  <meta name="description" content="See how Mission BOSS helps credit unions gain daily financial clarity, align their teams, and document decisions that drive results." />
+  <meta name="description"
+    content="See how Mission BOSS helps credit unions gain daily financial clarity, align their teams, and document decisions that drive results." />
   <link rel="stylesheet" href="/css/base.css" />
   <link rel="stylesheet" href="/css/components.css" />
   <link rel="stylesheet" href="/css/pages.css" />
   <link rel="icon" type="image/svg+xml" href="/img/logo-favicon.svg" />
 </head>
+
 <body>
 
   <!-- ====== NAVIGATION ====== -->
   <nav class="nav" id="nav">
-    <div class="nav__inner">
-      <a href="/" class="nav__logo">
-        <img src="/img/mission-boss-logo-white.png" alt="Mission BOSS" class="nav__logo-img" />
-      </a>
-      <div class="nav__hamburger" id="nav-toggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
+    <!-- Utility Bar -->
+    <div class="nav-utility">
+      <div class="nav-utility__inner">
+        <div class="nav-utility__clusters">
+          <a href="/resources#nim" class="nav-utility__link">Daily Profitability</a>
+          <a href="/resources#alm" class="nav-utility__link">Liquidity & Risk</a>
+          <a href="/resources#strategic" class="nav-utility__link">Strategy & Execution</a>
+          <a href="/resources#ncua" class="nav-utility__link">NCUA Exam</a>
+        </div>
+        <div class="nav-utility__actions">
+          <a href="/resources" class="nav-utility__link">Resources</a>
+          <a href="https://missionboss.com" class="nav-utility__link" target="_blank">Login</a>
+        </div>
       </div>
-      <div class="nav__links" id="nav-links">
-        <a href="/" class="nav__link">Home</a>
-        <a href="/how-it-works.html" class="nav__link">How It Works</a>
-        <a href="/case-studies.html" class="nav__link">Case Studies</a>
-        <a href="/about.html" class="nav__link">About</a>
-        <a href="/media-appearances.html" class="nav__link">Media</a>
-        <a href="/resources" class="nav__link">Resources</a>
-        <a href="https://missionboss.com" class="nav__link" target="_blank">Login</a>
-        <a href="/start-here.html" class="nav__cta btn btn--primary">Start Here</a>
+    </div>
+
+    <!-- Main Bar -->
+    <div class="nav-main">
+      <div class="nav-main__inner">
+        <a href="/" class="nav__logo">
+          <img src="/img/mission-boss-logo-white.png" alt="Mission BOSS" class="nav__logo-img" />
+        </a>
+        <div class="nav__hamburger" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="nav__links" id="nav-links">
+          <a href="/" class="nav__link">Home</a>
+          <a href="/how-it-works" class="nav__link">How It Works</a>
+          <a href="/case-studies" class="nav__link active">Case Studies</a>
+          <a href="/about" class="nav__link">About</a>
+          <a href="/media-appearances" class="nav__link">Media</a>
+          <a href="/resources" class="nav__link mobile-only">Resources</a>
+          <a href="https://missionboss.com" class="nav__link mobile-only" target="_blank">Login</a>
+          <a href="/start-here" class="nav__cta btn btn--primary">Start Here</a>
+        </div>
       </div>
     </div>
   </nav>
 
   <!-- ====== PAGE HERO ====== -->
-  <section class="page-hero" style="min-height: 50vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+  <section class="page-hero"
+    style="min-height: 50vh; display: flex; align-items: center; justify-content: center; text-align: center;">
     <img src="/img/hero-case-studies.jpg" alt="" class="page-hero__bg-img" />
     <div class="page-hero__overlay"></div>
     <div class="container" style="position:relative;z-index:2; max-width: 800px;">
       <span class="section__eyebrow">Proof of Impact</span>
       <h1 class="page-hero__title" style="margin-bottom: var(--space-md);">Client Success & Bottom-Line Results</h1>
       <p class="page-hero__subtitle" style="font-size: var(--fs-body-lg);">
-        Real institutions, real challenges, and what happened when they aligned their teams and got daily visibility into their numbers.
+        Real institutions, real challenges, and what happened when they aligned their teams and got daily visibility
+        into their numbers.
       </p>
     </div>
   </section>
 
   <!-- ====== CASE STUDIES CAROUSEL ====== -->
-  <section class="section section--dark" id="cases" style="padding-top: 0; margin-top: -5vh; position: relative; z-index: 10;">
+  <section class="section section--dark" id="cases"
+    style="padding-top: 0; margin-top: -5vh; position: relative; z-index: 10;">
     <div class="container">
       <div class="carousel reveal" style="box-shadow: var(--shadow-xl);">
         <div class="carousel__track">
@@ -57,7 +82,9 @@
           <div class="carousel__card carousel__card--active" data-index="0">
             <div class="carousel__card-inner">
               <img src="/img/case-deposit.png" alt="Revenue and Scale" class="carousel__bg" />
-              <div class="carousel__overlay" style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);"></div>
+              <div class="carousel__overlay"
+                style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);">
+              </div>
               <div class="carousel__logo-stripe"></div>
               <div class="carousel__content">
                 <span class="carousel__tag">Revenue & Scale</span>
@@ -76,7 +103,9 @@
                     <span class="carousel__stat-label">CEO Succession</span>
                   </div>
                 </div>
-                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Renewed 3-year client contract after implementing Mission BOSS, growing revenue from $9M to $13M and scaling staff to 56 while preparing for seamless CEO succession in 2025.</p>
+                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Renewed 3-year client contract after
+                  implementing Mission BOSS, growing revenue from $9M to $13M and scaling staff to 56 while preparing
+                  for seamless CEO succession in 2025.</p>
               </div>
             </div>
           </div>
@@ -85,7 +114,9 @@
           <div class="carousel__card" data-index="1">
             <div class="carousel__card-inner">
               <img src="/img/case-alignment.png" alt="First-Time CEO" class="carousel__bg" />
-              <div class="carousel__overlay" style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);"></div>
+              <div class="carousel__overlay"
+                style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);">
+              </div>
               <div class="carousel__logo-stripe"></div>
               <div class="carousel__content">
                 <span class="carousel__tag">Role Clarity</span>
@@ -104,7 +135,9 @@
                     <span class="carousel__stat-label">Net Income</span>
                   </div>
                 </div>
-                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Coached a first-time CEO on role clarity, resulting in 3 consecutive record-breaking bottom lines. Transitioned the CEO to a larger organization, retaining them as a client.</p>
+                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Coached a first-time CEO on role
+                  clarity, resulting in 3 consecutive record-breaking bottom lines. Transitioned the CEO to a larger
+                  organization, retaining them as a client.</p>
               </div>
             </div>
           </div>
@@ -113,7 +146,9 @@
           <div class="carousel__card" data-index="2">
             <div class="carousel__card-inner">
               <img src="/img/case-decision.png" alt="Texas Credit Union" class="carousel__bg" />
-              <div class="carousel__overlay" style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);"></div>
+              <div class="carousel__overlay"
+                style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);">
+              </div>
               <div class="carousel__logo-stripe"></div>
               <div class="carousel__content">
                 <span class="carousel__tag">Market Growth</span>
@@ -132,7 +167,8 @@
                     <span class="carousel__stat-label">Market Leader</span>
                   </div>
                 </div>
-                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Partnered with a Texas Credit Union to achieve 30% growth in memberships and loans, consistently outperforming competitors.</p>
+                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Partnered with a Texas Credit Union
+                  to achieve 30% growth in memberships and loans, consistently outperforming competitors.</p>
               </div>
             </div>
           </div>
@@ -140,8 +176,11 @@
           <!-- Case Study 4 -->
           <div class="carousel__card" data-index="3">
             <div class="carousel__card-inner">
-              <img src="/img/page-hero-about.jpg" onerror="this.src='/img/hero-how-it-works.jpg'" alt="Asset Doubling" class="carousel__bg" />
-              <div class="carousel__overlay" style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);"></div>
+              <img src="/img/page-hero-about.jpg" onerror="this.src='/img/hero-how-it-works.jpg'" alt="Asset Doubling"
+                class="carousel__bg" />
+              <div class="carousel__overlay"
+                style="background: linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.4) 60%, transparent 100%);">
+              </div>
               <div class="carousel__logo-stripe"></div>
               <div class="carousel__content">
                 <span class="carousel__tag">Talent Development</span>
@@ -160,7 +199,9 @@
                     <span class="carousel__stat-label">Goal Alignment</span>
                   </div>
                 </div>
-                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Doubled client assets within 3 years by implementing a goal-alignment system, performance scorecards, and structured meeting cadences, enabling leadership transitions and internal talent development.</p>
+                <p class="carousel__excerpt" style="font-size: var(--fs-body-lg);">Doubled client assets within 3 years
+                  by implementing a goal-alignment system, performance scorecards, and structured meeting cadences,
+                  enabling leadership transitions and internal talent development.</p>
               </div>
             </div>
           </div>
@@ -169,10 +210,16 @@
 
         <!-- Navigation -->
         <button class="carousel__nav carousel__nav--prev" aria-label="Previous case study">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
         </button>
         <button class="carousel__nav carousel__nav--next" aria-label="Next case study">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 6 15 12 9 18" />
+          </svg>
         </button>
 
         <!-- Dots -->
@@ -197,34 +244,54 @@
         </p>
       </div>
 
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-xl); margin-bottom: var(--space-xl);">
-        <div class="reveal" style="padding: var(--space-lg); background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-xl); margin-bottom: var(--space-xl);">
+        <div class="reveal"
+          style="padding: var(--space-lg); background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
           <div style="color: var(--color-gold); margin-bottom: var(--space-sm);">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
           </div>
-          <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-sm); line-height: 1.2;">Brand Strategy <br>&amp; Retention</h3>
+          <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-sm); line-height: 1.2;">Brand Strategy
+            <br>&amp; Retention</h3>
           <p style="color: rgba(255,255,255,0.7); font-size: var(--fs-body-lg); line-height: var(--lh-body);">
-            Reversed a 3-year trend of customer attrition by overhauling the brand strategy to align with the operating model, delivering positive ROI within 12 months.
+            Reversed a 3-year trend of customer attrition by overhauling the brand strategy to align with the operating
+            model, delivering positive ROI within 12 months.
           </p>
         </div>
 
-        <div class="reveal reveal-delay-2" style="padding: var(--space-lg); background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+        <div class="reveal reveal-delay-2"
+          style="padding: var(--space-lg); background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
           <div style="color: var(--color-gold); margin-bottom: var(--space-sm);">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
           </div>
-          <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-sm); line-height: 1.2;">Technology &amp; <br>Process Automation</h3>
+          <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-sm); line-height: 1.2;">Technology &amp;
+            <br>Process Automation</h3>
           <p style="color: rgba(255,255,255,0.7); font-size: var(--fs-body-lg); line-height: var(--lh-body);">
-            Designed and launched the Micro-Mentorship Platform with the industry-first "BOLD" Assessment Method. Automated operational engagements via daily scorecards for real-time decision-making.
+            Designed and launched the Micro-Mentorship Platform with the industry-first "BOLD" Assessment Method.
+            Automated operational engagements via daily scorecards for real-time decision-making.
           </p>
         </div>
 
-        <div class="reveal reveal-delay-4" style="padding: var(--space-lg); background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+        <div class="reveal reveal-delay-4"
+          style="padding: var(--space-lg); background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
           <div style="color: var(--color-gold); margin-bottom: var(--space-sm);">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
           </div>
-          <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-sm); line-height: 1.2;">Innovative <br>Operating Models</h3>
+          <h3 style="font-size: var(--fs-h3); margin-bottom: var(--space-sm); line-height: 1.2;">Innovative
+            <br>Operating Models</h3>
           <p style="color: rgba(255,255,255,0.7); font-size: var(--fs-body-lg); line-height: var(--lh-body);">
-            Developed a paradigm-shifting operating controls platform to enhance retention and productivity by synchronizing employee goals with organizational performance in real-time.
+            Developed a paradigm-shifting operating controls platform to enhance retention and productivity by
+            synchronizing employee goals with organizational performance in real-time.
           </p>
         </div>
       </div>
@@ -232,29 +299,50 @@
   </section>
 
   <!-- ====== SOCIAL PROOF ====== -->
-  <section class="section section--dark" id="proof" style="padding-top: var(--space-xl); padding-bottom: var(--space-2xl);">
+  <section class="section section--dark" id="proof"
+    style="padding-top: var(--space-xl); padding-bottom: var(--space-2xl);">
     <div class="container">
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: var(--space-xl);">
-        
-        <div class="reveal" style="position: relative; padding: var(--space-xl); background: rgba(0,0,0,0.2); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.05); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="font-size: 6rem; color: var(--color-gold); line-height: 0; margin-top: var(--space-lg); margin-bottom: var(--space-sm); opacity: 0.8;">"</div>
-          <p style="font-size: clamp(1.2rem, 2vw, 1.4rem); line-height: 1.5; color: white; margin-bottom: var(--space-xl); font-style: italic;">
-            It's always been my job as CEO to find, develop and retain great people that can serve our members well... we partnered with TeamOnUP to accelerate our success on this path – we think they give us the best chance to win. They have a totally new take on what the employee experience is... their team, their software and their service makes perfect sense to us.
+
+        <div class="reveal"
+          style="position: relative; padding: var(--space-xl); background: rgba(0,0,0,0.2); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.05); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
+          <div
+            style="font-size: 6rem; color: var(--color-gold); line-height: 0; margin-top: var(--space-lg); margin-bottom: var(--space-sm); opacity: 0.8;">
+            "</div>
+          <p
+            style="font-size: clamp(1.2rem, 2vw, 1.4rem); line-height: 1.5; color: white; margin-bottom: var(--space-xl); font-style: italic;">
+            It's always been my job as CEO to find, develop and retain great people that can serve our members well...
+            we partnered with TeamOnUP to accelerate our success on this path – we think they give us the best chance to
+            win. They have a totally new take on what the employee experience is... their team, their software and their
+            service makes perfect sense to us.
           </p>
           <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md);">
-            <div style="font-weight: 700; color: var(--color-gold); font-size: var(--fs-h5); letter-spacing: 0.5px;">Marshall Boutwell</div>
-            <div style="color: rgba(255,255,255,0.6); font-size: var(--fs-small); text-transform: uppercase; letter-spacing: 1px;">CEO, Peach State FCU</div>
+            <div style="font-weight: 700; color: var(--color-gold); font-size: var(--fs-h5); letter-spacing: 0.5px;">
+              Marshall Boutwell</div>
+            <div
+              style="color: rgba(255,255,255,0.6); font-size: var(--fs-small); text-transform: uppercase; letter-spacing: 1px;">
+              CEO, Peach State FCU</div>
           </div>
         </div>
 
-        <div class="reveal reveal-delay-2" style="position: relative; padding: var(--space-xl); background: rgba(0,0,0,0.2); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.05); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="font-size: 6rem; color: var(--color-gold); line-height: 0; margin-top: var(--space-lg); margin-bottom: var(--space-sm); opacity: 0.8;">"</div>
-          <p style="font-size: clamp(1.2rem, 2vw, 1.4rem); line-height: 1.5; color: white; margin-bottom: var(--space-xl); font-style: italic;">
-            I love the vision TeamOnUP has for what the employee experience can be in 2020 and beyond – and, fully expect this partnership to significantly enhance our ability to attract and retain talent... As a CEO, I've always prioritized talent and leadership capabilities... and am pumped up for what this new partnership represents for the growth of our team!
+        <div class="reveal reveal-delay-2"
+          style="position: relative; padding: var(--space-xl); background: rgba(0,0,0,0.2); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.05); text-align: center; display: flex; flex-direction: column; justify-content: space-between;">
+          <div
+            style="font-size: 6rem; color: var(--color-gold); line-height: 0; margin-top: var(--space-lg); margin-bottom: var(--space-sm); opacity: 0.8;">
+            "</div>
+          <p
+            style="font-size: clamp(1.2rem, 2vw, 1.4rem); line-height: 1.5; color: white; margin-bottom: var(--space-xl); font-style: italic;">
+            I love the vision TeamOnUP has for what the employee experience can be in 2020 and beyond – and, fully
+            expect this partnership to significantly enhance our ability to attract and retain talent... As a CEO, I've
+            always prioritized talent and leadership capabilities... and am pumped up for what this new partnership
+            represents for the growth of our team!
           </p>
           <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-md);">
-            <div style="font-weight: 700; color: var(--color-gold); font-size: var(--fs-h5); letter-spacing: 0.5px;">Eric Jenkins</div>
-            <div style="color: rgba(255,255,255,0.6); font-size: var(--fs-small); text-transform: uppercase; letter-spacing: 1px;">CEO, Education Credit Union</div>
+            <div style="font-weight: 700; color: var(--color-gold); font-size: var(--fs-h5); letter-spacing: 0.5px;">
+              Eric Jenkins</div>
+            <div
+              style="color: rgba(255,255,255,0.6); font-size: var(--fs-small); text-transform: uppercase; letter-spacing: 1px;">
+              CEO, Education Credit Union</div>
           </div>
         </div>
 
@@ -282,7 +370,8 @@
             <img src="/img/mission-boss-logo-white.png" alt="Mission BOSS" class="footer__logo-img" />
           </div>
           <p class="footer__brand-text">
-            Daily clarity, honest scorecards, and documented decisions for credit union leaders who want to lead with facts.
+            Daily clarity, honest scorecards, and documented decisions for credit union leaders who want to lead with
+            facts.
           </p>
         </div>
         <div>
@@ -311,4 +400,5 @@
 
   <script type="module" src="/js/main.js"></script>
 </body>
+
 </html>
