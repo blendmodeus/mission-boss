@@ -171,9 +171,14 @@
             </li>
           </ul>
         </div>
-        <div class="reveal reveal-delay-2" style="display: flex; justify-content: center; width: 100%;">
-          <video controls playsinline preload="metadata" src="/img/IMG_0521.MOV" class="shadow-xl relative z-10"
-            style="border-radius: var(--radius-lg); width: 100%; height: auto; object-fit: contain;"></video>
+        <div class="reveal reveal-delay-2" style="display: flex; justify-content: center; width: 100%; position: relative;">
+          <!-- Cinematic Glow Backdrop -->
+          <div style="position: absolute; top: 10%; left: 10%; right: 10%; bottom: 10%; background: var(--color-gold); filter: blur(80px); opacity: 0.15; z-index: 1;"></div>
+          
+          <div class="video-frame" style="position: relative; z-index: 2; width: 100%; border: 1px solid rgba(0,0,0,0.1); box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25), 0 18px 36px -18px rgba(0,0,0,0.3);">
+            <video controls playsinline preload="metadata" src="/img/IMG_0521.MOV" 
+              style="width: 100%; height: auto; object-fit: contain; display: block; border-radius: 0;"></video>
+          </div>
         </div>
       </div>
     </div>
@@ -217,12 +222,12 @@
         </div>
       </div>
 
-      <div class="pull-quote reveal" style="max-width: 700px; margin: var(--space-xl) auto 0;">
+      <div class="pull-quote pull-quote--hero reveal" style="margin: var(--space-xl) auto 0;">
         <p class="pull-quote__text">
           "We were making million-dollar decisions based on data that was already 45 days old. We didn't even know our
           real cost of funds until it was too late."
         </p>
-        <span class="pull-quote__author">— Credit Union CEO, $400M in Assets</span>
+        <span class="pull-quote__author">— CEO, $400M Credit Union</span>
       </div>
     </div>
   </section>
@@ -417,30 +422,44 @@
             <img src="/img/mission-boss-logo-white.png" alt="Mission BOSS" class="footer__logo-img" />
           </div>
           <p class="footer__brand-text">
-            Daily clarity, honest scorecards, and documented decisions for credit union leaders who want to lead with
-            facts.
+            Daily clarity, honest scorecards, and documented decisions for credit union leaders who want to lead with facts.
           </p>
         </div>
         <div>
-          <h4 class="footer__heading">Navigate</h4>
-          <a href="/" class="footer__link">Home</a>
-          <a href="/how-it-works.html" class="footer__link">How It Works</a>
-          <a href="/case-studies.html" class="footer__link">Case Studies</a>
-          <a href="/about.html" class="footer__link">About</a>
-          <a href="/media-appearances.html" class="footer__link">Media</a>
-          <a href="/resources" class="footer__link">Resources</a>
-          <a href="/start-here.html" class="footer__link">Start Here</a>
+          <h4 class="footer__heading">Daily Profitability</h4>
+          <a href="/resources/net-interest-margin-credit-unions-guide" class="footer__link">NIM Complete Guide</a>
+          <a href="/resources/net-interest-margin-calculation" class="footer__link">Calculating NIM</a>
+          <a href="/resources/cost-of-funds-credit-unions" class="footer__link">Cost of Funds</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Liquidity & Risk</h4>
+          <a href="/resources/asset-liability-management-credit-unions" class="footer__link">ALM Guide</a>
+          <a href="/resources/credit-union-liquidity-management" class="footer__link">Liquidity Management</a>
+          <a href="/resources/interest-rate-risk-management-credit-unions" class="footer__link">Interest Rate Risk</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Strategy & Execution</h4>
+          <a href="/resources/credit-union-strategic-planning-guide" class="footer__link">Strategic Planning</a>
+          <a href="/resources/credit-union-strategic-plan-template" class="footer__link">Plan Template</a>
+          <a href="/resources/credit-union-decision-loop" class="footer__link">2-Week Decision Loop</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">NCUA Exam</h4>
+          <a href="/resources/ncua-exam-preparation-guide" class="footer__link">Exam Prep Guide</a>
+          <a href="/resources/what-ncua-examiners-look-for" class="footer__link">What Examiners Look For</a>
+          <a href="/resources/ncua-supervisory-priorities-2026" class="footer__link">2026 Priorities</a>
         </div>
         <div>
           <h4 class="footer__heading">Connect</h4>
-          <a href="mailto:mike@missionboss.com" class="footer__link">mike@missionboss.com</a>
-          <a href="#" class="footer__link">LinkedIn</a>
-          <a href="#" class="footer__link">Skool Community</a>
+          <a href="mailto:mike@missionboss.com" class="footer__link">Email</a>
+          <a href="https://www.linkedin.com/in/gomikekelly" class="footer__link" target="_blank">LinkedIn</a>
+          <a href="/" class="footer__link">Home</a>
+          <a href="/resources" class="footer__link">Resources</a>
         </div>
       </div>
       <div class="footer__bottom">
         <span>&copy; 2026 Mission BOSS. All rights reserved.</span>
-        <span>Franklin, TN</span>
+        <span>Made with <span style="color: #ff4b4b;">❤️</span> in TN</span>
       </div>
     </div>
   </footer>

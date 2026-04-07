@@ -158,8 +158,45 @@ h1, h2, h3, h4, h5, h6 {
 .reveal-delay-4 { transition-delay: 0.4s; }
 
 /* --- Responsive --- */
-@media (max-width: 768px) {
-  .section {
-    padding: var(--space-xl) 0;
-  }
+/* --- Global Surface Rule: Sharp Corners on Light Backgrounds --- */
+/* Target any section or container that is not explicitly dark */
+.section:not(.section--dark):not(.section--navy-gradient),
+.section--surface,
+.page-hero:not(.page-hero--dark),
+.article-header,
+.resources-grid,
+.fit-grid,
+.comparison-table {
+  --radius-sm: 0 !important;
+  --radius-md: 0 !important;
+  --radius-lg: 0 !important;
+  --radius-xl: 0 !important;
+  --radius-full: 0 !important;
+}
+
+/* Fallback for specific components and hardcoded inline styles */
+.section:not(.section--dark):not(.section--navy-gradient) .btn,
+.section:not(.section--dark):not(.section--navy-gradient) .problem-card,
+.section:not(.section--dark):not(.section--navy-gradient) .card,
+.section:not(.section--dark):not(.section--navy-gradient) .video-frame,
+.section:not(.section--dark):not(.section--navy-gradient) .video-frame video,
+.section:not(.section--dark):not(.section--navy-gradient) .pull-quote,
+.section:not(.section--dark):not(.section--navy-gradient) .pull-quote--hero,
+.section:not(.section--dark):not(.section--navy-gradient) .resource-card,
+.section:not(.section--dark):not(.section--navy-gradient) .resources-cluster,
+.section:not(.section--dark):not(.section--navy-gradient) .metric-tag,
+.section:not(.section--dark):not(.section--navy-gradient) .resource-card__tag,
+.section:not(.section--dark):not(.section--navy-gradient) .article-meta__tag,
+.section:not(.section--dark):not(.section--navy-gradient) .split-image,
+.section:not(.section--dark):not(.section--navy-gradient) .about-photo,
+.section:not(.section--dark):not(.section--navy-gradient) .start-here-detail__icon {
+  border-radius: 0 !important;
+}
+
+/* Ensure images and other content-area elements in these sections follow the sharp rule */
+.article-content img,
+.article-content video,
+.article-content .btn,
+.resources-grid img {
+  border-radius: 0 !important;
 }
