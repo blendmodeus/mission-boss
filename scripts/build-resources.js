@@ -118,29 +118,37 @@ const FOOTER = `  <!-- ====== FOOTER ====== -->
 
 // ── Helpers ────────────────────────────────────────────────────────
 
-/**
- * Extract <script type="application/ld+json"> blocks from raw markdown.
- * These appear as literal HTML in the markdown, after "---" separators.
- */
 function extractSchemaBlocks(rawContent) {
   const blocks = [];
-  const regex = /<script\s+type="application\/ld\+json">\s*([\s\S]*?)\s*<\/script>/gi;
+  
+  // 1. Match <script type="application/ld+json"> blocks
+  const scriptRegex = /<script\s+type="application\/ld\+json">\s*([\s\S]*?)\s*<\/script>/gi;
   let match;
-  while ((match = regex.exec(rawContent)) !== null) {
+  while ((match = scriptRegex.exec(rawContent)) !== null) {
     blocks.push(match[0]);
   }
+
+  // 2. Match ```json blocks that contain @context schema.org
+  const codeBlockRegex = /```json\s*(\{\s*"@context":\s*"https?:\/\/schema\.org"[\s\S]*?\})\s*```/gi;
+  while ((match = codeBlockRegex.exec(rawContent)) !== null) {
+    // Wrap in script tag for head placement
+    blocks.push(`<script type="application/ld+json">\n${match[1]}\n</script>`);
+  }
+
   return blocks;
 }
 
-/**
- * Remove schema script blocks from the markdown body so they don't
- * render as visible HTML inside the article content.
- */
 function stripSchemaBlocks(content) {
-  // Remove the trailing --- separator before schema blocks too
   return content
-    .replace(/---\s*\n\s*<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/gi, '')
+    // Remove "## Schema Markup", "## Schema", or basically anything from the first schema-related heading onwards
+    .replace(/(?:\n---\s*\n|\n##+\s*(?:Schema|Schema Markup|JSON-LD|Article Schema|FAQPage Schema))[\s\S]*$/gi, '')
+    // Fallback: Remove raw script tags
     .replace(/<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/gi, '')
+    // Fallback: Remove JSON code blocks that are clearly schema
+    .replace(/```json\s*\{\s*"@context":\s*"https?:\/\/schema\.org"[\s\S]*?\}\s*```/gi, '')
+    .trim()
+    // Final check: Remove any trailing horizontal rules
+    .replace(/\n---\s*$/g, '')
     .trim();
 }
 
