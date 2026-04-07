@@ -65,7 +65,7 @@
 .nav__links {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
 }
 
 .nav__link {

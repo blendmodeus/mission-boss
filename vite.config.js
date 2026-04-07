@@ -8,7 +8,7 @@ const resourcePages = existsSync(resourceDir)
   ? readdirSync(resourceDir)
       .filter(f => f.endsWith('.html'))
       .reduce((acc, file) => {
-        const name = 'resource-' + file.replace('.html', '')
+        const name = 'resources/' + file.replace('.html', '')
         acc[name] = resolve(resourceDir, file)
         return acc
       }, {})
@@ -25,6 +25,7 @@ export default defineConfig({
         caseStudy1: resolve(__dirname, 'case-study-1.html'),
         about: resolve(__dirname, 'about.html'),
         mediaAppearances: resolve(__dirname, 'media-appearances.html'),
+        resources: resolve(__dirname, 'resources.html'),
         ...resourcePages,
       },
     },

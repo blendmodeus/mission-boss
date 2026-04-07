@@ -126,6 +126,8 @@ function clusterLabel(cluster) {
     'cluster-01-nim': 'Net Interest Margin',
     'cluster-02-alm': 'Asset-Liability Management',
     'cluster-03-ncua': 'NCUA & Compliance',
+    'cluster-04-ncua': 'NCUA Exam',
+    'cluster-03-strategic': 'Strategic Planning',
     'cluster-04-strategy': 'Strategy & Execution',
   };
   return map[cluster] || cluster;
@@ -347,10 +349,10 @@ function main() {
 
   // Build and write the index page
   const indexHTML = buildIndexPage(articles);
-  fs.writeFileSync(path.join(OUTPUT_DIR, 'index.html'), indexHTML, 'utf-8');
-  console.log(`  -> index.html (${articles.length} articles)`);
+  fs.writeFileSync(path.join(ROOT, 'resources.html'), indexHTML, 'utf-8');
+  console.log(`  -> resources.html (${articles.length} articles)`);
 
-  console.log(`\nDone. ${articles.length + 1} files written to ${OUTPUT_DIR}/`);
+  console.log(`\nDone. ${articles.length} files written to ${OUTPUT_DIR}/ and resources.html to root`);
 }
 
 main();
