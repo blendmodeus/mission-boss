@@ -27,7 +27,7 @@
 
   /* Typography */
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-display: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
 
   --fs-hero:    clamp(2.5rem, 5vw, 4.5rem);
   --fs-h1:      clamp(2rem, 4vw, 3.5rem);

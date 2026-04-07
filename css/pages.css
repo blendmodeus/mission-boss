@@ -364,16 +364,24 @@
 /* === LOGO BAR (Trusted By) === */
 .logo-bar {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  gap: var(--space-md) var(--space-xl);
-  padding: var(--space-sm) 0;
+  justify-content: flex-start;
+  gap: var(--space-xl);
+  padding: var(--space-sm) var(--space-md);
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.logo-bar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .logo-bar img {
-  max-height: 72px;
+  max-height: 120px;
   width: auto;
+  flex-shrink: 0;
   filter: grayscale(100%);
   opacity: 0.7;
   transition: filter 0.3s, opacity 0.3s;
@@ -386,10 +394,10 @@
 
 @media (max-width: 768px) {
   .logo-bar {
-    gap: var(--space-md) var(--space-lg);
+    gap: var(--space-lg);
   }
   .logo-bar img {
-    max-height: 48px;
+    max-height: 80px;
   }
 }
 
