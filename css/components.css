@@ -231,10 +231,12 @@
     right: 1.5rem;
     cursor: pointer;
     padding: 0.5rem;
-    color: var(--color-white);
-    display: flex;
+    color: var(--color-white) !important;
+    display: flex !important;
+    visibility: visible !important;
     align-items: center;
     justify-content: center;
+    pointer-events: auto !important;
     transition: all var(--transition-base);
     z-index: 1010;
   }
@@ -257,7 +259,12 @@
   }
 
   .nav__links .mobile-only {
-    display: flex;
+    display: flex !important;
+    visibility: visible !important;
+  }
+
+  .mobile-only {
+    display: flex !important;
   }
 }
 
