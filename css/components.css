@@ -144,6 +144,10 @@
   width: 100%;
 }
 
+.mobile-only {
+  display: none;
+}
+
 .nav__cta {
   display: inline-flex;
   align-items: center;
@@ -221,18 +225,42 @@
     transition: right var(--transition-base), visibility 0s;
   }
 
+  .nav__close {
+    position: absolute;
+    top: 1.75rem;
+    right: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-base);
+    z-index: 1010;
+  }
+
+  .nav__close:hover {
+    transform: rotate(90deg);
+    color: var(--color-gold);
+  }
+
+  .nav__close svg {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2.5;
+    fill: none;
+  }
+
   .nav__link {
     font-size: var(--fs-body);
   }
 
-  .mobile-only {
+  .nav__links .mobile-only {
     display: flex;
   }
 }
 
-.mobile-only {
-  display: none;
-}
 
 /* === BUTTONS === */
 .btn {

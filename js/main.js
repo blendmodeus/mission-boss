@@ -29,19 +29,29 @@ function initNav() {
 
   // Mobile toggle
   if (hamburger && links) {
-    hamburger.addEventListener('click', () => {
+    const closeBtn = links.querySelector('.nav__close');
+
+    const toggleMenu = () => {
       hamburger.classList.toggle('open');
       links.classList.toggle('open');
       document.body.style.overflow = links.classList.contains('open') ? 'hidden' : '';
-    });
+    };
+
+    const closeMenu = () => {
+      hamburger.classList.remove('open');
+      links.classList.remove('open');
+      document.body.style.overflow = '';
+    };
+
+    hamburger.addEventListener('click', toggleMenu);
+    
+    if (closeBtn) {
+      closeBtn.addEventListener('click', closeMenu);
+    }
 
     // Close on link click
     links.querySelectorAll('.nav__link').forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('open');
-        links.classList.remove('open');
-        document.body.style.overflow = '';
-      });
+      link.addEventListener('click', closeMenu);
     });
   }
 }
