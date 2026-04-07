@@ -11,6 +11,7 @@ export default defineConfig({
         caseStudies: resolve(__dirname, 'case-studies.html'),
         caseStudy1: resolve(__dirname, 'case-study-1.html'),
         about: resolve(__dirname, 'about.html'),
+        mediaAppearances: resolve(__dirname, 'media-appearances.html'),
       },
     },
   },
