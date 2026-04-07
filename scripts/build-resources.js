@@ -242,7 +242,7 @@ ${NAV}
   <!-- ====== CTA BANNER ====== -->
   <section class="cta-banner" id="cta">
     <div class="container">
-      <h2 class="cta-banner__title">Ready to BOSS Your Mission?</h2>
+      <h2 class="cta-banner__title">Ready to Unlock Growth For Your Credit Union?</h2>
       <p class="cta-banner__text">
         Your mission is too important for guesswork. Get daily clarity on your bottom line and start making decisions that stick.
       </p>
@@ -296,8 +296,18 @@ function buildIndexPage(articles) {
           </a>`;
     }
 
+    const idMap = {
+      'cluster-01-nim': 'nim',
+      'cluster-02-alm': 'alm',
+      'cluster-03-ncua': 'ncua',
+      'cluster-04-ncua': 'ncua',
+      'cluster-03-strategic': 'strategic',
+      'cluster-04-strategy': 'strategic',
+    };
+    const clusterId = idMap[cluster] ? ` id="${idMap[cluster]}"` : '';
+
     sectionsHTML += `
-      <div class="resources-cluster">
+      <div class="resources-cluster"${clusterId}>
         <h2 class="resources-cluster__heading">${label}</h2>
         <div class="grid grid--3 resources-grid">
           ${cardsHTML}
@@ -344,7 +354,7 @@ ${NAV}
   <!-- ====== CTA BANNER ====== -->
   <section class="cta-banner" id="cta">
     <div class="container">
-      <h2 class="cta-banner__title">Ready to BOSS Your Mission?</h2>
+      <h2 class="cta-banner__title">Ready to Unlock Growth For Your Credit Union?</h2>
       <p class="cta-banner__text">
         Your mission is too important for guesswork. Get daily clarity on your bottom line and start making decisions that stick.
       </p>
