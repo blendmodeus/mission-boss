@@ -63,31 +63,78 @@
   </nav>
 
   <!-- ====== HERO ====== -->
-  <section class="hero section--dark" id="hero">
+  <section class="hero" id="hero">
     <div class="hero__bg">
-      <img src="/img/hero-case-studies.jpg" alt="Credit union leadership meeting" />
+      <video autoplay loop muted playsinline class="hero__bg-video">
+        <source src="/img/Cinematic_City_Loop_Video_Generation.webm" type="video/webm">
+      </video>
+      <div class="hero__overlay"></div>
     </div>
-    <div class="hero__particles">
-      <span class="hero__particle"></span>
-      <span class="hero__particle"></span>
-      <span class="hero__particle"></span>
-      <span class="hero__particle"></span>
-      <span class="hero__particle"></span>
-    </div>
-    <div class="container hero__content">
-      <div class="hero__eyebrow">
-        <span class="eyebrow-dot"></span> Built for Credit Union Leaders
+    <div class="container hero__container">
+      <!-- Left Content -->
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="eyebrow-line"></span> Mission BOSS Platform
+        </div>
+        <h1 class="hero__title">
+          Stop Leading by Looking in the <span class="text-gold">Rearview Mirror.</span>
+        </h1>
+        <p class="hero__subtitle">
+          We show you exactly how your credit union performed yesterday — the rates, the spread, the runoff — so you can make today's decisions with confidence.
+        </p>
+        <div class="hero__actions">
+          <a href="/start-here.html" class="btn btn--primary btn--large btn--arrow">Start Here</a>
+          <a href="/how-it-works.html" class="btn btn--secondary btn--large">See How It Works</a>
+        </div>
       </div>
-      <h1 class="hero__title">
-        Stop Leading by Looking in the <span class="text-gold">Rearview Mirror.</span>
-      </h1>
-      <p class="hero__subtitle">
-        We show you exactly how your credit union performed yesterday — the rates, the spread, the runoff — so you can
-        make today's decisions with confidence.
-      </p>
-      <div class="hero__actions">
-        <a href="/start-here.html" class="btn btn--primary btn--large btn--arrow">Start Here</a>
-        <a href="/how-it-works.html" class="btn btn--secondary btn--large">See How It Works</a>
+      
+      <!-- Right Visual -->
+      <div class="hero__visual">
+        <div class="hero__card hero__card--1">
+          <div class="hero__card-top">
+            <div class="hero__card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="hero__card-trend text-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="18 15 12 9 6 15"></polyline></svg> +1.2%
+            </div>
+          </div>
+          <div class="hero__card-value text-gold">+4.2%</div>
+          <div class="hero__card-header">Daily Bottom Line</div>
+          <div class="hero__card-sparkline">
+            <svg viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0 20 C20 15, 40 18, 60 10 S80 5, 100 2" stroke="var(--color-gold)" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/></svg>
+          </div>
+        </div>
+        <div class="hero__card hero__card--2">
+          <div class="hero__card-top">
+            <div class="hero__card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <div class="hero__card-trend text-red">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"></polyline></svg> -0.3%
+            </div>
+          </div>
+          <div class="hero__card-value">-1.8%</div>
+          <div class="hero__card-header">Loan Runoff</div>
+          <div class="hero__card-sparkline">
+            <svg viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0 5 C20 10, 40 8, 60 15 S80 18, 100 20" stroke="#ff4b4b" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/></svg>
+          </div>
+        </div>
+        <div class="hero__card hero__card--3">
+          <div class="hero__card-top">
+            <div class="hero__card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            </div>
+            <div class="hero__card-trend text-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="18 15 12 9 6 15"></polyline></svg> +0.05%
+            </div>
+          </div>
+          <div class="hero__card-value">2.45%</div>
+          <div class="hero__card-header">Margin Spread</div>
+          <div class="hero__card-sparkline">
+            <svg viewBox="0 0 100 20" preserveAspectRatio="none"><path d="M0 15 C20 12, 40 10, 60 8 S80 5, 100 2" stroke="#4ade80" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/></svg>
+          </div>
+        </div>
       </div>
     </div>
   </section>
